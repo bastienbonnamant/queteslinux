@@ -1,0 +1,1628 @@
+
+basti@WINDELL-GDNLN8H MINGW64 ~
+$ 1s
+bash: 1s: command not found
+
+basti@WINDELL-GDNLN8H MINGW64 ~
+$ pwd
+/c/Users/basti
+
+basti@WINDELL-GDNLN8H MINGW64 ~
+$ cd images
+bash: cd: images: No such file or directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~
+$ cd ..
+
+basti@WINDELL-GDNLN8H MINGW64 /c/Users
+$ cd /opt
+bash: cd: /opt: No such file or directory
+
+basti@WINDELL-GDNLN8H MINGW64 /c/Users
+$ /home/bastienbonnamant
+bash: /home/bastienbonnamant: No such file or directory
+
+basti@WINDELL-GDNLN8H MINGW64 /c/Users
+$ /home/basti
+bash: /home/basti: No such file or directory
+
+basti@WINDELL-GDNLN8H MINGW64 /c/Users
+$ 1s ~/Téléchargements
+bash: 1s: command not found
+
+basti@WINDELL-GDNLN8H MINGW64 /c/Users
+$ pwd
+/c/Users
+
+basti@WINDELL-GDNLN8H MINGW64 /c/Users
+$ cd ..
+
+basti@WINDELL-GDNLN8H MINGW64 /c
+$ 1s
+bash: 1s: command not found
+
+basti@WINDELL-GDNLN8H MINGW64 /c
+$ 1s
+bash: 1s: command not found
+
+basti@WINDELL-GDNLN8H MINGW64 /c
+$ Is
+bash: Is: command not found
+
+basti@WINDELL-GDNLN8H MINGW64 /c
+$ is
+bash: is: command not found
+
+basti@WINDELL-GDNLN8H MINGW64 /c
+$ Ls
+'$GetCurrent'                      Downloads          'Program Files (x86)'         bootTel.dat
+'$Recycle.Bin'                     DummyDir            ProgramData                  hiberfil.sys
+'$WINRE_BACKUP_PARTITION.MARKER'   DumpStack.log.tmp   Recovery                     pagefile.sys
+'$WinREAgent'                      Intel              'System Volume Information'   pcdoctor_depot_tools
+ Config.Msi                        OneDriveTemp        Users                        swapfile.sys
+ Dell                              PerfLogs            Windows                      wamp64
+'Documents and Settings'          'Program Files'      Windows10Upgrade
+
+basti@WINDELL-GDNLN8H MINGW64 /c
+$ Ls .
+'$GetCurrent'                      Downloads          'Program Files (x86)'         bootTel.dat
+'$Recycle.Bin'                     DummyDir            ProgramData                  hiberfil.sys
+'$WINRE_BACKUP_PARTITION.MARKER'   DumpStack.log.tmp   Recovery                     pagefile.sys
+'$WinREAgent'                      Intel              'System Volume Information'   pcdoctor_depot_tools
+ Config.Msi                        OneDriveTemp        Users                        swapfile.sys
+ Dell                              PerfLogs            Windows                      wamp64
+'Documents and Settings'          'Program Files'      Windows10Upgrade
+
+basti@WINDELL-GDNLN8H MINGW64 /c
+$ Ls -a
+'$GetCurrent'                     'Documents and Settings'  'Program Files (x86)'         hiberfil.sys
+'$Recycle.Bin'                     Downloads                 ProgramData                  pagefile.sys
+'$WINRE_BACKUP_PARTITION.MARKER'   DummyDir                  Recovery                     pcdoctor_depot_tools
+'$WinREAgent'                      DumpStack.log.tmp        'System Volume Information'   swapfile.sys
+ .                                 Intel                     Users                        wamp64
+ ..                                OneDriveTemp              Windows
+ Config.Msi                        PerfLogs                  Windows10Upgrade
+ Dell                             'Program Files'            bootTel.dat
+
+basti@WINDELL-GDNLN8H MINGW64 /c
+$ Ls Images
+Ls: cannot access 'Images': No such file or directory
+
+basti@WINDELL-GDNLN8H MINGW64 /c
+$ Ls images
+Ls: cannot access 'images': No such file or directory
+
+basti@WINDELL-GDNLN8H MINGW64 /c
+$ Ls ./Images
+Ls: cannot access './Images': No such file or directory
+
+basti@WINDELL-GDNLN8H MINGW64 /c
+$ ls
+'$GetCurrent'/                     Downloads/         'Program Files (x86)'/         bootTel.dat
+'$Recycle.Bin'/                    DummyDir/           ProgramData/                  hiberfil.sys
+'$WINRE_BACKUP_PARTITION.MARKER'   DumpStack.log.tmp   Recovery/                     pagefile.sys
+'$WinREAgent'/                     Intel/             'System Volume Information'/   pcdoctor_depot_tools/
+ Config.Msi/                       OneDriveTemp/       Users/                        swapfile.sys
+ Dell/                             PerfLogs/           Windows/                      wamp64/
+'Documents and Settings'@         'Program Files'/     Windows10Upgrade/
+
+basti@WINDELL-GDNLN8H MINGW64 /c
+$ ls .
+'$GetCurrent'/                     Downloads/         'Program Files (x86)'/         bootTel.dat
+'$Recycle.Bin'/                    DummyDir/           ProgramData/                  hiberfil.sys
+'$WINRE_BACKUP_PARTITION.MARKER'   DumpStack.log.tmp   Recovery/                     pagefile.sys
+'$WinREAgent'/                     Intel/             'System Volume Information'/   pcdoctor_depot_tools/
+ Config.Msi/                       OneDriveTemp/       Users/                        swapfile.sys
+ Dell/                             PerfLogs/           Windows/                      wamp64/
+'Documents and Settings'@         'Program Files'/     Windows10Upgrade/
+
+basti@WINDELL-GDNLN8H MINGW64 /c
+$ ls ./Downloads
+Updater_SA_Upgrade/
+
+basti@WINDELL-GDNLN8H MINGW64 /c
+$ pwd
+/c
+
+basti@WINDELL-GDNLN8H MINGW64 /c
+$ cd images
+bash: cd: images: No such file or directory
+
+basti@WINDELL-GDNLN8H MINGW64 /c
+$ cd ..
+
+basti@WINDELL-GDNLN8H MINGW64 /
+$ cd
+
+basti@WINDELL-GDNLN8H MINGW64 ~
+$ pwd
+/c/Users/basti
+
+basti@WINDELL-GDNLN8H MINGW64 ~
+$ cd ~/music
+
+basti@WINDELL-GDNLN8H MINGW64 ~/music
+$ cd ~/images
+bash: cd: /c/Users/basti/images: No such file or directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/music
+$ pwd
+/c/Users/basti/music
+
+basti@WINDELL-GDNLN8H MINGW64 ~/music
+$ ls
+ 4-better-or-4-worse-dj-nu-mark-remix-instrumental.aup
+ 4-better-or-4-worse-dj-nu-mark-remix-instrumental_data/
+'Sans titre Project'/
+ desktop.ini
+ fef.aup
+ fef_data/
+ free-alpha-wann-freestyle-type-beat-technique-prod-zephyr.mp3
+ free-biggie-smalls-x-big-l-type-beat-chillin.aup
+ free-biggie-smalls-x-big-l-type-beat-chillin.mp3
+ free-biggie-smalls-x-big-l-type-beat-chillin_data/
+ free-plk-x-lefa-type-beat-230-ft-larry-instru-rap-2021.aup
+ free-plk-x-lefa-type-beat-230-ft-larry-instru-rap-2021_data/
+ new-story-90s-old-school-boom-bap-beat-hip-hop-instrumental.aup
+ new-story-90s-old-school-boom-bap-beat-hip-hop-instrumental.wav
+ new-story-90s-old-school-boom-bap-beat-hip-hop-instrumental_data/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/music
+$ pwd
+/c/Users/basti/music
+
+basti@WINDELL-GDNLN8H MINGW64 ~/music
+$ cd images
+bash: cd: images: No such file or directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/music
+$ ls
+ 4-better-or-4-worse-dj-nu-mark-remix-instrumental.aup
+ 4-better-or-4-worse-dj-nu-mark-remix-instrumental_data/
+'Sans titre Project'/
+ desktop.ini
+ fef.aup
+ fef_data/
+ free-alpha-wann-freestyle-type-beat-technique-prod-zephyr.mp3
+ free-biggie-smalls-x-big-l-type-beat-chillin.aup
+ free-biggie-smalls-x-big-l-type-beat-chillin.mp3
+ free-biggie-smalls-x-big-l-type-beat-chillin_data/
+ free-plk-x-lefa-type-beat-230-ft-larry-instru-rap-2021.aup
+ free-plk-x-lefa-type-beat-230-ft-larry-instru-rap-2021_data/
+ new-story-90s-old-school-boom-bap-beat-hip-hop-instrumental.aup
+ new-story-90s-old-school-boom-bap-beat-hip-hop-instrumental.wav
+ new-story-90s-old-school-boom-bap-beat-hip-hop-instrumental_data/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/music
+$ cd ..
+
+basti@WINDELL-GDNLN8H MINGW64 ~
+$ cd images
+bash: cd: images: No such file or directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~
+$ pwd
+/c/Users/basti
+
+basti@WINDELL-GDNLN8H MINGW64 ~
+$ cd ../Users/basti
+bash: cd: ../Users/basti: No such file or directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~
+$ cd /usr/bin
+
+basti@WINDELL-GDNLN8H MINGW64 /usr/bin
+$ ls
+'[.exe'*                      git-flow-release                msys-gssapi-3.dll*            setfacl.exe*
+ addgnupghome*                git-flow-support                msys-hcrypto-4.dll*           setmetamode.exe*
+ applygnupgdefaults*          git-flow-version                msys-heimbase-1.dll*          sexp-conv.exe*
+ arch.exe*                    gitflow-common                  msys-heimntlm-0.dll*          sftp.exe*
+ astextplain*                 gitflow-shFlags                 msys-hogweed-6.dll*           sh.exe*
+ autopoint*                   gkill.exe*                      msys-hx509-5.dll*             sha1sum.exe*
+ awk.exe*                     glib-compile-schemas.exe*       msys-iconv-2.dll*             sha224sum.exe*
+ b2sum.exe*                   gobject-query.exe*              msys-idn2-0.dll*              sha256sum.exe*
+ backup*                      gpg-agent.exe*                  msys-intl-8.dll*              sha384sum.exe*
+ base32.exe*                  gpg-connect-agent.exe*          msys-kafs-0.dll*              sha512sum.exe*
+ base64.exe*                  gpg-error.exe*                  msys-krb5-26.dll*             shred.exe*
+ basename.exe*                gpg-wks-server.exe*             msys-ksba-8.dll*              shuf.exe*
+ basenc.exe*                  gpg.exe*                        msys-lz4-1.dll*               sleep.exe*
+ bash.exe*                    gpgconf.exe*                    msys-magic-1.dll*             sort.exe*
+ bashbug*                     gpgparsemail.exe*               msys-mpfr-6.dll*              split.exe*
+ bunzip2.exe*                 gpgscm.exe*                     msys-ncursesw6.dll*           ssh-add.exe*
+ bzcat.exe*                   gpgsm.exe*                      msys-nettle-8.dll*            ssh-agent.exe*
+ bzcmp*                       gpgsplit.exe*                   msys-npth-0.dll*              ssh-copy-id*
+ bzdiff*                      gpgtar.exe*                     msys-p11-kit-0.dll*           ssh-keygen.exe*
+ bzegrep*                     gpgv.exe*                       msys-pcre-1.dll*              ssh-keyscan.exe*
+ bzfgrep*                     grep.exe*                       msys-perl5_32.dll*            ssh-pageant.exe*
+ bzgrep*                      groups.exe*                     msys-psl-5.dll*               ssh.exe*
+ bzip2.exe*                   gsettings.exe*                  msys-readline8.dll*           sshd.exe*
+ bzip2recover.exe*            gunzip*                         msys-roken-18.dll*            ssp.exe*
+ bzless*                      gzexe*                          msys-sasl2-3.dll*             start*
+ bzmore*                      gzip.exe*                       msys-serf-1-0.dll*            stat.exe*
+ c_rehash*                    head.exe*                       msys-smartcols-1.dll*         strace.exe*
+ captoinfo.exe*               hmac256.exe*                    msys-sqlite3-0.dll*           stty.exe*
+ cat.exe*                     hostid.exe*                     msys-ssl-1.1.dll*             sum.exe*
+ chattr.exe*                  hostname.exe*                   msys-svn_client-1-0.dll*      sync.exe*
+ chcon.exe*                   iconv.exe*                      msys-svn_delta-1-0.dll*       tabs.exe*
+ chgrp.exe*                   id.exe*                         msys-svn_diff-1-0.dll*        tac.exe*
+ chmod.exe*                   infocmp.exe*                    msys-svn_fs-1-0.dll*          tail.exe*
+ chown.exe*                   infotocap.exe*                  msys-svn_fs_fs-1-0.dll*       tar.exe*
+ chroot.exe*                  install.exe*                    msys-svn_fs_util-1-0.dll*     tclsh.exe*
+ cksum.exe*                   join.exe*                       msys-svn_fs_x-1-0.dll*        tclsh8.6.exe*
+ clear.exe*                   kbxutil.exe*                    msys-svn_ra-1-0.dll*          tee.exe*
+ cmp.exe*                     kill.exe*                       msys-svn_ra_local-1-0.dll*    test.exe*
+ column.exe*                  ldd.exe*                        msys-svn_ra_serf-1-0.dll*     tic.exe*
+ comm.exe*                    ldh.exe*                        msys-svn_ra_svn-1-0.dll*      tig.exe*
+ core_perl/                   less.exe*                       msys-svn_repos-1-0.dll*       timeout.exe*
+ cp.exe*                      lessecho.exe*                   msys-svn_subr-1-0.dll*        toe.exe*
+ csplit.exe*                  lesskey.exe*                    msys-svn_swig_perl-1-0.dll*   touch.exe*
+ cut.exe*                     libtcl8.6.dll*                  msys-svn_wc-1-0.dll*          tput.exe*
+ cygcheck.exe*                link.exe*                       msys-tasn1-6.dll*             tr.exe*
+ cygpath.exe*                 ln.exe*                         msys-ticw6.dll*               true.exe*
+ cygwin-console-helper.exe*   locale.exe*                     msys-unistring-2.dll*         truncate.exe*
+ d2u.exe*                     locate.exe*                     msys-uuid-1.dll*              trust.exe*
+ dash.exe*                    logname.exe*                    msys-wind-0.dll*              tset.exe*
+ date.exe*                    ls.exe*                         msys-z.dll*                   tsort.exe*
+ dd.exe*                      lsattr.exe*                     mv.exe*                       tty.exe*
+ df.exe*                      mac2unix.exe*                   nano.exe*                     tzset.exe*
+ diff.exe*                    md5sum.exe*                     nettle-hash.exe*              u2d.exe*
+ diff3.exe*                   minidumper.exe*                 nettle-lfib-stream.exe*       umount.exe*
+ dir.exe*                     mintheme*                       nettle-pbkdf2.exe*            uname.exe*
+ dircolors.exe*               mintty.exe*                     ngettext.exe*                 uncompress*
+ dirmngr-client.exe*          mkdir.exe*                      nice.exe*                     unexpand.exe*
+ dirmngr.exe*                 mkfifo.exe*                     nl.exe*                       uniq.exe*
+ dirname.exe*                 mkgroup.exe*                    nohup.exe*                    unix2dos.exe*
+ docx2txt*                    mknod.exe*                      notepad*                      unix2mac.exe*
+ docx2txt.pl*                 mkpasswd.exe*                   nproc.exe*                    unlink.exe*
+ dos2unix.exe*                mktemp.exe*                     numfmt.exe*                   unzip.exe*
+ du.exe*                      mount.exe*                      od.exe*                       unzipsfx.exe*
+ dumpsexp.exe*                mpicalc.exe*                    openssl.exe*                  update-ca-trust*
+ echo.exe*                    msgattrib.exe*                  p11-kit.exe*                  updatedb*
+ egrep*                       msgcat.exe*                     passwd.exe*                   users.exe*
+ env.exe*                     msgcmp.exe*                     paste.exe*                    vdir.exe*
+ envsubst.exe*                msgcomm.exe*                    patch.exe*                    vendor_perl/
+ ex.exe*                      msgconv.exe*                    pathchk.exe*                  vi*
+ expand.exe*                  msgen.exe*                      perl.exe*                     view.exe*
+ expr.exe*                    msgexec.exe*                    perl5.32.1.exe*               vim.exe*
+ factor.exe*                  msgfilter.exe*                  pinentry-w32.exe*             vimdiff.exe*
+ false.exe*                   msgfmt.exe*                     pinentry.exe*                 vimtutor*
+ fgrep*                       msggrep.exe*                    pinky.exe*                    watchgnupg.exe*
+ fido2-assert.exe*            msginit.exe*                    pkcs1-conv.exe*               wc.exe*
+ fido2-cred.exe*              msgmerge.exe*                   pldd.exe*                     which.exe*
+ fido2-token.exe*             msgunfmt.exe*                   pluginviewer.exe*             who.exe*
+ file.exe*                    msguniq.exe*                    pr.exe*                       whoami.exe*
+ find.exe*                    msys-2.0.dll*                   printenv.exe*                 winpty-agent.exe*
+ findssl.sh*                  msys-apr-1-0.dll*               printf.exe*                   winpty-debugserver.exe*
+ fmt.exe*                     msys-aprutil-1-0.dll*           ps.exe*                       winpty.dll*
+ fold.exe*                    msys-asn1-8.dll*                psl-make-dafsa*               winpty.exe*
+ funzip.exe*                  msys-assuan-0.dll*              psl.exe*                      wordpad*
+ gapplication.exe*            msys-bz2-1.dll*                 ptx.exe*                      xargs.exe*
+ gawk-5.0.0.exe*              msys-cbor-0.8.dll*              pwd.exe*                      xgettext.exe*
+ gawk.exe*                    msys-com_err-1.dll*             readlink.exe*                 xxd.exe*
+ gdbus.exe*                   msys-crypt-0.dll*               realpath.exe*                 yat2m.exe*
+ gencat.exe*                  msys-crypto-1.1.dll*            rebase.exe*                   yes.exe*
+ getconf.exe*                 msys-edit-0.dll*                rebaseall*                    zcat*
+ getemojis*                   msys-expat-1.dll*               recode-sr-latin.exe*          zcmp*
+ getfacl.exe*                 msys-ffi-7.dll*                 regtool.exe*                  zdiff*
+ getopt.exe*                  msys-fido2-1.dll*               reset.exe*                    zegrep*
+ gettext.exe*                 msys-gcc_s-seh-1.dll*           restore*                      zfgrep*
+ gettext.sh*                  msys-gcrypt-20.dll*             rm.exe*                       zforce*
+ gettextize*                  msys-gettextlib-0-19-8-1.dll*   rmdir.exe*                    zgrep*
+ gio-querymodules.exe*        msys-gettextsrc-0-19-8-1.dll*   rnano.exe*                    zipgrep*
+ git-flow*                    msys-gio-2.0-0.dll*             runcon.exe*                   zipinfo.exe*
+ git-flow-bugfix              msys-glib-2.0-0.dll*            rview.exe*                    zless*
+ git-flow-config              msys-gmodule-2.0-0.dll*         rvim.exe*                     zmore*
+ git-flow-feature             msys-gmp-10.dll*                scp.exe*                      znew*
+ git-flow-hotfix              msys-gnutls-30.dll*             sdiff.exe*
+ git-flow-init                msys-gobject-2.0-0.dll*         sed.exe*
+ git-flow-log                 msys-gpg-error-0.dll*           seq.exe*
+
+basti@WINDELL-GDNLN8H MINGW64 /usr/bin
+$ pwd
+/usr/bin
+
+basti@WINDELL-GDNLN8H MINGW64 /usr/bin
+$ ls ~/images
+ls: cannot access '/c/Users/basti/images': No such file or directory
+
+basti@WINDELL-GDNLN8H MINGW64 /usr/bin
+$ pwd
+/usr/bin
+
+basti@WINDELL-GDNLN8H MINGW64 /usr/bin
+$ ls
+'[.exe'*                      git-flow-release                msys-gssapi-3.dll*            setfacl.exe*
+ addgnupghome*                git-flow-support                msys-hcrypto-4.dll*           setmetamode.exe*
+ applygnupgdefaults*          git-flow-version                msys-heimbase-1.dll*          sexp-conv.exe*
+ arch.exe*                    gitflow-common                  msys-heimntlm-0.dll*          sftp.exe*
+ astextplain*                 gitflow-shFlags                 msys-hogweed-6.dll*           sh.exe*
+ autopoint*                   gkill.exe*                      msys-hx509-5.dll*             sha1sum.exe*
+ awk.exe*                     glib-compile-schemas.exe*       msys-iconv-2.dll*             sha224sum.exe*
+ b2sum.exe*                   gobject-query.exe*              msys-idn2-0.dll*              sha256sum.exe*
+ backup*                      gpg-agent.exe*                  msys-intl-8.dll*              sha384sum.exe*
+ base32.exe*                  gpg-connect-agent.exe*          msys-kafs-0.dll*              sha512sum.exe*
+ base64.exe*                  gpg-error.exe*                  msys-krb5-26.dll*             shred.exe*
+ basename.exe*                gpg-wks-server.exe*             msys-ksba-8.dll*              shuf.exe*
+ basenc.exe*                  gpg.exe*                        msys-lz4-1.dll*               sleep.exe*
+ bash.exe*                    gpgconf.exe*                    msys-magic-1.dll*             sort.exe*
+ bashbug*                     gpgparsemail.exe*               msys-mpfr-6.dll*              split.exe*
+ bunzip2.exe*                 gpgscm.exe*                     msys-ncursesw6.dll*           ssh-add.exe*
+ bzcat.exe*                   gpgsm.exe*                      msys-nettle-8.dll*            ssh-agent.exe*
+ bzcmp*                       gpgsplit.exe*                   msys-npth-0.dll*              ssh-copy-id*
+ bzdiff*                      gpgtar.exe*                     msys-p11-kit-0.dll*           ssh-keygen.exe*
+ bzegrep*                     gpgv.exe*                       msys-pcre-1.dll*              ssh-keyscan.exe*
+ bzfgrep*                     grep.exe*                       msys-perl5_32.dll*            ssh-pageant.exe*
+ bzgrep*                      groups.exe*                     msys-psl-5.dll*               ssh.exe*
+ bzip2.exe*                   gsettings.exe*                  msys-readline8.dll*           sshd.exe*
+ bzip2recover.exe*            gunzip*                         msys-roken-18.dll*            ssp.exe*
+ bzless*                      gzexe*                          msys-sasl2-3.dll*             start*
+ bzmore*                      gzip.exe*                       msys-serf-1-0.dll*            stat.exe*
+ c_rehash*                    head.exe*                       msys-smartcols-1.dll*         strace.exe*
+ captoinfo.exe*               hmac256.exe*                    msys-sqlite3-0.dll*           stty.exe*
+ cat.exe*                     hostid.exe*                     msys-ssl-1.1.dll*             sum.exe*
+ chattr.exe*                  hostname.exe*                   msys-svn_client-1-0.dll*      sync.exe*
+ chcon.exe*                   iconv.exe*                      msys-svn_delta-1-0.dll*       tabs.exe*
+ chgrp.exe*                   id.exe*                         msys-svn_diff-1-0.dll*        tac.exe*
+ chmod.exe*                   infocmp.exe*                    msys-svn_fs-1-0.dll*          tail.exe*
+ chown.exe*                   infotocap.exe*                  msys-svn_fs_fs-1-0.dll*       tar.exe*
+ chroot.exe*                  install.exe*                    msys-svn_fs_util-1-0.dll*     tclsh.exe*
+ cksum.exe*                   join.exe*                       msys-svn_fs_x-1-0.dll*        tclsh8.6.exe*
+ clear.exe*                   kbxutil.exe*                    msys-svn_ra-1-0.dll*          tee.exe*
+ cmp.exe*                     kill.exe*                       msys-svn_ra_local-1-0.dll*    test.exe*
+ column.exe*                  ldd.exe*                        msys-svn_ra_serf-1-0.dll*     tic.exe*
+ comm.exe*                    ldh.exe*                        msys-svn_ra_svn-1-0.dll*      tig.exe*
+ core_perl/                   less.exe*                       msys-svn_repos-1-0.dll*       timeout.exe*
+ cp.exe*                      lessecho.exe*                   msys-svn_subr-1-0.dll*        toe.exe*
+ csplit.exe*                  lesskey.exe*                    msys-svn_swig_perl-1-0.dll*   touch.exe*
+ cut.exe*                     libtcl8.6.dll*                  msys-svn_wc-1-0.dll*          tput.exe*
+ cygcheck.exe*                link.exe*                       msys-tasn1-6.dll*             tr.exe*
+ cygpath.exe*                 ln.exe*                         msys-ticw6.dll*               true.exe*
+ cygwin-console-helper.exe*   locale.exe*                     msys-unistring-2.dll*         truncate.exe*
+ d2u.exe*                     locate.exe*                     msys-uuid-1.dll*              trust.exe*
+ dash.exe*                    logname.exe*                    msys-wind-0.dll*              tset.exe*
+ date.exe*                    ls.exe*                         msys-z.dll*                   tsort.exe*
+ dd.exe*                      lsattr.exe*                     mv.exe*                       tty.exe*
+ df.exe*                      mac2unix.exe*                   nano.exe*                     tzset.exe*
+ diff.exe*                    md5sum.exe*                     nettle-hash.exe*              u2d.exe*
+ diff3.exe*                   minidumper.exe*                 nettle-lfib-stream.exe*       umount.exe*
+ dir.exe*                     mintheme*                       nettle-pbkdf2.exe*            uname.exe*
+ dircolors.exe*               mintty.exe*                     ngettext.exe*                 uncompress*
+ dirmngr-client.exe*          mkdir.exe*                      nice.exe*                     unexpand.exe*
+ dirmngr.exe*                 mkfifo.exe*                     nl.exe*                       uniq.exe*
+ dirname.exe*                 mkgroup.exe*                    nohup.exe*                    unix2dos.exe*
+ docx2txt*                    mknod.exe*                      notepad*                      unix2mac.exe*
+ docx2txt.pl*                 mkpasswd.exe*                   nproc.exe*                    unlink.exe*
+ dos2unix.exe*                mktemp.exe*                     numfmt.exe*                   unzip.exe*
+ du.exe*                      mount.exe*                      od.exe*                       unzipsfx.exe*
+ dumpsexp.exe*                mpicalc.exe*                    openssl.exe*                  update-ca-trust*
+ echo.exe*                    msgattrib.exe*                  p11-kit.exe*                  updatedb*
+ egrep*                       msgcat.exe*                     passwd.exe*                   users.exe*
+ env.exe*                     msgcmp.exe*                     paste.exe*                    vdir.exe*
+ envsubst.exe*                msgcomm.exe*                    patch.exe*                    vendor_perl/
+ ex.exe*                      msgconv.exe*                    pathchk.exe*                  vi*
+ expand.exe*                  msgen.exe*                      perl.exe*                     view.exe*
+ expr.exe*                    msgexec.exe*                    perl5.32.1.exe*               vim.exe*
+ factor.exe*                  msgfilter.exe*                  pinentry-w32.exe*             vimdiff.exe*
+ false.exe*                   msgfmt.exe*                     pinentry.exe*                 vimtutor*
+ fgrep*                       msggrep.exe*                    pinky.exe*                    watchgnupg.exe*
+ fido2-assert.exe*            msginit.exe*                    pkcs1-conv.exe*               wc.exe*
+ fido2-cred.exe*              msgmerge.exe*                   pldd.exe*                     which.exe*
+ fido2-token.exe*             msgunfmt.exe*                   pluginviewer.exe*             who.exe*
+ file.exe*                    msguniq.exe*                    pr.exe*                       whoami.exe*
+ find.exe*                    msys-2.0.dll*                   printenv.exe*                 winpty-agent.exe*
+ findssl.sh*                  msys-apr-1-0.dll*               printf.exe*                   winpty-debugserver.exe*
+ fmt.exe*                     msys-aprutil-1-0.dll*           ps.exe*                       winpty.dll*
+ fold.exe*                    msys-asn1-8.dll*                psl-make-dafsa*               winpty.exe*
+ funzip.exe*                  msys-assuan-0.dll*              psl.exe*                      wordpad*
+ gapplication.exe*            msys-bz2-1.dll*                 ptx.exe*                      xargs.exe*
+ gawk-5.0.0.exe*              msys-cbor-0.8.dll*              pwd.exe*                      xgettext.exe*
+ gawk.exe*                    msys-com_err-1.dll*             readlink.exe*                 xxd.exe*
+ gdbus.exe*                   msys-crypt-0.dll*               realpath.exe*                 yat2m.exe*
+ gencat.exe*                  msys-crypto-1.1.dll*            rebase.exe*                   yes.exe*
+ getconf.exe*                 msys-edit-0.dll*                rebaseall*                    zcat*
+ getemojis*                   msys-expat-1.dll*               recode-sr-latin.exe*          zcmp*
+ getfacl.exe*                 msys-ffi-7.dll*                 regtool.exe*                  zdiff*
+ getopt.exe*                  msys-fido2-1.dll*               reset.exe*                    zegrep*
+ gettext.exe*                 msys-gcc_s-seh-1.dll*           restore*                      zfgrep*
+ gettext.sh*                  msys-gcrypt-20.dll*             rm.exe*                       zforce*
+ gettextize*                  msys-gettextlib-0-19-8-1.dll*   rmdir.exe*                    zgrep*
+ gio-querymodules.exe*        msys-gettextsrc-0-19-8-1.dll*   rnano.exe*                    zipgrep*
+ git-flow*                    msys-gio-2.0-0.dll*             runcon.exe*                   zipinfo.exe*
+ git-flow-bugfix              msys-glib-2.0-0.dll*            rview.exe*                    zless*
+ git-flow-config              msys-gmodule-2.0-0.dll*         rvim.exe*                     zmore*
+ git-flow-feature             msys-gmp-10.dll*                scp.exe*                      znew*
+ git-flow-hotfix              msys-gnutls-30.dll*             sdiff.exe*
+ git-flow-init                msys-gobject-2.0-0.dll*         sed.exe*
+ git-flow-log                 msys-gpg-error-0.dll*           seq.exe*
+
+basti@WINDELL-GDNLN8H MINGW64 /usr/bin
+$ ls ~/Downloads
+ 01.jpg
+ 01000527.jpg
+ 01011111.jpg
+ 02.jfif
+ 03.jpg
+ 04.jpg
+ 08.jpg
+ 09..jpg
+ 09.jpg
+ 091620-Alphabet-Cake-Stamp-Tool-2-Eulie_480x480.gif
+ 091620-Alphabet-Cake-Stamp-Tool-2-Eulie_480x480.mp4
+ 0a40b3049d4584ab5c8332d8e4616088b987b6a2.webp
+ 1-13427_edited-a-firewatch-wallpaper-70002076-summit.png
+ 1.png
+'10000000_710769129644818_8601560993563644721_n (1).mp4'
+ 10000000_710769129644818_8601560993563644721_n.mp4
+ 10842955.jpg
+ 10_228eec68-4088-4597-8875-c6abe62a77dc_720x.jpg
+'12 Years a Slave.cube'
+ 121260550_2821500691508522_6472441052506948516_n.jpg
+ 121334789_2821500754841849_873906423532744050_n.jpg
+ 122479241_369983544198349_7164695126285315356_n.jpg
+'123913862_470593790572924_2534862427354540243_n (1).jpg'
+ 123913862_470593790572924_2534862427354540243_n.jpg
+ 124383954_287804612458599_9204649400386696245_n.jpg
+ 124383954_287804612458599_9204649400386696245_n.png
+ 1280px-Flag_of_Greece.svg.png
+ 131894983_102198358450957_1078360409871437953_n.jpg
+ 1361821517_7396.jpg
+ 138854712_3400910570019375_574182952519626176_n.jpg
+ 138854712_3400910570019375_574182952519626176_n.png
+ 14_98155154-c2db-4edc-90d4-b5328f0848d1_720x.jpg
+ 15.Cablu_USB_Magnetic_Incarcare-Transfer_Date_480x480.webp
+ 154633794_3832986080114437_2401632742986343510_n.jpg
+ 1556113961540.jfif
+ 1557582858866.jfif
+ 1568924395181.jfif
+ 1760544.jpg
+ 18806936.png
+ 1917.cube
+ 1933.jpg
+ 1_large.gif
+'20 Glitch Transitions Pack - Personal Use.zip'
+'2020131381955 (1).pdf'
+ 2020131381955.pdf
+ 2020151937729.pdf
+ 2020171817023.pdf
+'2021-02 Sacha certificat travail.PDF'
+'2021-02 Sacha recu.PDF'
+ 210212114048_all_links_pretty_link_clicks_0-1.csv
+ 2188.png
+ 2222.png
+ 23312649-glitch-titles-and-lower-thirds-for-premiere-pro-ShareAE.com.zip
+ 2360163.jpg
+ 254095.svg
+ 2_720x_2450dc4e-4ae7-4c75-87db-4fb94b9fb051_large.jpg
+ 30_Glitch_Transitions__SFX.zip
+ 3d-snow-editable-text-effect.zip
+ 4-better-or-4-worse-dj-nu-mark-remix-instrumental.mp3
+'408283-cosmetic-jar-mockup-front-view-04-originalmockups (1).zip'
+ 408283-cosmetic-jar-mockup-front-view-04-originalmockups.zip
+ 4121544.psd
+ 412Cm_hjY_mid.jpg
+ 41fV6BS8K_mid.jpg
+ 46-464677_1600-x-640-6-0-download-ios-app.png
+ 4911340.jpg
+ 4976423.jpg
+ 4J4XrgKot_mid.jpg
+ 4JEftLlhY_mid.jpg
+ 4JHy8W9sK_mid.jpg
+ 4JbVLeYoF_mid.jpg
+ 4JhDSeKiK_mid.jpg
+ 4k3E2zJnt_mid.jpg
+ 4kFw4gYsY_mid.jpg
+ 4kWJGbyhY_mid.jpg
+ 4kgVpSBLF_mid.jpg
+ 4y38xCx2K_mid.jpg
+ 4yL4prHLt_mid.jpg
+ 4ypVvOBIF_mid.jpg
+'5 Free Glitch Effect Presets - Debrup Travel & Films.zip'
+ 55555555.png
+ 5_fc885ef3-4a07-494e-843d-64eed7b5187f_720x.jpg
+ 5f6272f5e9bec752df9a992d3b66d6c8.jpg
+ 5fec8308a4f40__Omnisphere-26-Crack---Activation-Code-2021-100-Working.zip
+ 60-607860_on-game-of-thrones-sansa-stark-could-have.png
+'61&67kg normal'/
+'61&67kg normal.zip'
+'61kg C&J (3)'/
+'61kg C&J (3).zip'
+'61kg Snatch.zip'
+'61kg c&j (1)'/
+'61kg c&j (1).zip'
+'61kg c&j (2)'/
+'61kg c&j (2).zip'
+'61kg c&j.zip'
+ 666.png
+ 6hFwpEKOxgyghrTv.mp4
+ 80abbf0ee20edb29f91bfafe0752bb01-700.jpg
+ 841629.jpg
+ 886f31e2af42c918ea111fc3b7b56acf.webp
+ 8_800x_6eb94c38-42ce-4935-84bc-13dabb5cb8dd_480x480.jpg
+ 9-96768_red-arrow-for-youtube-hd-png-download.png
+ 91272936_2790628330992218_3450414088079802368_n.jpg
+ 948044.jpg
+ 981915.png
+ AUTOTUNE.rar
+ AdobeStock_108652059.jpg
+'AdobeStock_356161422 (1).psd'
+ AdobeStock_356161422.psd
+ AdobeStock_376354270.psd
+ AdobeStock_52414377.psd
+'Ankama Launcher-Setup.exe'*
+'AnyConv.com__image (10).png'
+'AnyConv.com__image (2).png'
+'AnyConv.com__image (3).png'
+'AnyConv.com__image (4).png'
+'AnyConv.com__image (5).png'
+'AnyConv.com__image (6).png'
+'AnyConv.com__image (7).png'
+'AnyConv.com__image (8).png'
+'AnyConv.com__image (9).png'
+ Array.jpg
+'Attestation tempo_2.pdf'
+ Audacity.exe*
+ Audacity_inst.exe*
+'AutoTune DixiZe YT.zip'
+ AvantApres_750x490.png
+'Avis serviette séchante - loox_import_template (1) (14).csv'
+'Avis serviette séchante - loox_import_template (1) (15).csv'
+ Baloo_2.zip
+ Battle.net-Setup.exe*
+'Blumbody Patches Anti Rides pour le Visage - 165 Bandes pour la Réduction des Rides_ Front Correctifs Rides, Rides Correctifs Yeux, la Ride autour de la Bouche - Anti âge Lissage Tape_ Amazon.fr_ Beauté et Parfum.html'
+'Blumbody Patches Anti Rides pour le Visage - 165 Bandes pour la Réduction des Rides_ Front Correctifs Rides, Rides Correctifs Yeux, la Ride autour de la Bouche - Anti âge Lissage Tape_ Amazon.fr_ Beauté et Parfum_files'/
+ BoomtownDeco.ttf
+'Bulletins_Duplicatas (1).pdf'
+ Bulletins_Duplicatas.pdf
+'Bulletins_Originaux (1) (1).pdf'
+'Bulletins_Originaux (1).pdf'
+'Bulletins_Originaux (2).pdf'
+'Bulletins_Originaux (3).pdf'
+'Bulletins_Originaux (4).pdf'
+ Bulletins_Originaux.pdf
+'Bulletins_décembre 2020.pdf'
+ C6fYmTvUyFZLJlz6XHkr.jpg
+'CDD TEMPS COMPLET 35H (1).doc'
+'CDD TEMPS COMPLET 35H (2).doc'
+'CDD TEMPS COMPLET 35H.doc'
+ CV.docx
+'Capture d’écran 2020-11-06 151834.png'
+'Capture d’écran 2020-11-16 103247.png'
+'Capture d’écran 2020-11-17 110734.png'
+'Capture d’écran 2020-11-20 110240.png'
+'Capture d’écran 2020-11-20 110827.png'
+'Capture d’écran 2020-11-23 142930.png'
+'Capture d’écran 2020-11-24 155351.png'
+'Capture d’écran 2020-11-25 102903.png'
+'Capture d’écran 2020-11-25 103016.png'
+'Capture d’écran 2020-11-25 103246.png'
+'Capture d’écran 2020-11-25 103426.png'
+'Capture d’écran 2020-11-25 103445.png'
+'Capture d’écran 2020-11-25 110437.png'
+'Capture d’écran 2020-11-25 112313.png'
+'Capture d’écran 2020-11-25 112546.png'
+'Capture d’écran 2020-11-25 112710.png'
+'Capture d’écran 2020-11-25 113013.png'
+'Capture d’écran 2020-11-25 113118.png'
+'Capture d’écran 2020-11-25 113357.png'
+'Capture d’écran 2020-11-25 113503.png'
+'Capture d’écran 2020-11-25 113557.png'
+'Capture d’écran 2020-11-25 113930.png'
+'Capture d’écran 2020-11-25 114121.png'
+'Capture d’écran 2020-11-27 105252.png'
+'Capture d’écran 2020-11-30 104244.png'
+'Capture d’écran 2020-12-02 165733.png'
+'Capture d’écran 2020-12-02 165749.png'
+'Capture d’écran 2020-12-04 110212.png'
+'Capture d’écran 2020-12-09 105335.png'
+'Capture d’écran 2020-12-09 111052.png'
+'Capture d’écran 2020-12-09 111104.png'
+'Capture d’écran 2020-12-09 111114.png'
+'Capture d’écran 2020-12-09 111125.png'
+'Capture d’écran 2020-12-09 111139.png'
+'Capture d’écran 2020-12-09 112437.png'
+'Capture d’écran 2020-12-09 121424.png'
+'Capture d’écran 2020-12-09 121439.png'
+'Capture d’écran 2020-12-09 121500.png'
+'Capture d’écran 2020-12-09 143337.png'
+'Capture d’écran 2020-12-09 145111.png'
+'Capture d’écran 2020-12-09 145127.png'
+'Capture d’écran 2020-12-09 152439.png'
+'Capture d’écran 2020-12-09 152452.png'
+'Capture d’écran 2020-12-09 152640.png'
+'Capture d’écran 2020-12-09 152710.png'
+'Capture d’écran 2020-12-09 155304.png'
+'Capture d’écran 2020-12-09 155325.png'
+'Capture d’écran 2020-12-09 162246.png'
+'Capture d’écran 2020-12-10 125915.png'
+'Capture d’écran 2020-12-10 154053.png'
+'Capture d’écran 2020-12-14 112000.png'
+'Capture d’écran 2020-12-14 112011.png'
+'Capture d’écran 2020-12-14 112021.png'
+'Capture d’écran 2020-12-14 112329.png'
+'Capture d’écran 2020-12-14 112410.png'
+'Capture d’écran 2020-12-14 112507.png'
+'Capture d’écran 2020-12-14 150600.png'
+'Capture d’écran 2020-12-14 150614.png'
+'Capture d’écran 2020-12-14 151057.png'
+'Capture d’écran 2020-12-15 142905.png'
+'Capture d’écran 2020-12-15 154121.png'
+'Capture d’écran 2020-12-15 154136.png'
+'Capture d’écran 2020-12-15 154152.png'
+'Capture d’écran 2020-12-15 154234.png'
+'Capture d’écran 2020-12-15 154246.png'
+'Capture d’écran 2020-12-15 154354.png'
+'Capture d’écran 2020-12-17 115016.png'
+'Capture d’écran 2020-12-29 124546.png'
+'Capture d’écran 2020-12-30 110245.png'
+'Capture d’écran 2020-12-30 110313.png'
+'Capture d’écran 2020-12-30 110326.png'
+'Capture d’écran 2020-12-30 110348.png'
+'Capture d’écran 2020-12-30 110406.png'
+'Capture d’écran 2020-12-30 110431.png'
+'Capture d’écran 2020-12-30 110451.png'
+'Capture d’écran 2020-12-30 110509.png'
+'Capture d’écran 2020-12-30 110526.png'
+'Capture d’écran 2021-01-04 134408.png'
+'Capture d’écran 2021-01-04 140627.png'
+'Capture d’écran 2021-01-04 140652.png'
+'Capture d’écran 2021-01-04 140706.png'
+'Capture d’écran 2021-01-04 140736.png'
+'Capture d’écran 2021-01-04 140801.png'
+'Capture d’écran 2021-01-04 151754.png'
+'Capture d’écran 2021-01-04 151809.png'
+'Capture d’écran 2021-01-04 151821.png'
+'Capture d’écran 2021-01-04 151834.png'
+'Capture d’écran 2021-01-04 151846.png'
+'Capture d’écran 2021-01-04 151857.png'
+'Capture d’écran 2021-01-04 151908.png'
+'Capture d’écran 2021-01-05 123431.png'
+'Capture d’écran 2021-01-05 124040.png'
+'Capture d’écran 2021-01-05 124558.png'
+'Capture d’écran 2021-01-05 144217.png'
+'Capture d’écran 2021-01-05 144319.png'
+'Capture d’écran 2021-01-05 144412.png'
+'Capture d’écran 2021-01-05 144427.png'
+'Capture d’écran 2021-01-05 144448.png'
+'Capture d’écran 2021-01-05 144501.png'
+'Capture d’écran 2021-01-05 144515.png'
+'Capture d’écran 2021-01-05 144529.png'
+'Capture d’écran 2021-01-05 144541.png'
+'Capture d’écran 2021-01-21 144046.png'
+'Capture d’écran 2021-01-22 105004.png'
+'Capture d’écran 2021-01-27 105201.png'
+'Capture d’écran 2021-02-02 141617.png'
+'Capture d’écran 2021-02-02 141827.png'
+'Capture d’écran 2021-02-05 114745.png'
+'Capture d’écran 2021-02-08 122313.png'
+'Capture d’écran 2021-02-08 122327.png'
+'Capture d’écran 2021-02-17 212211.png'
+'Capture d’écran 2021-02-27 150658.png'
+ Cinematic-80-s-style-406714.zip
+'Communauté urbaine de strasbourg archi.jpg'
+'Communauté urbaine de strasbourg plan.jpg'
+'Communauté urbaine de strasbourg.jpg'
+ Compétitions/
+ Compétitions.png
+ Compétitions.zip
+'Copie de Lettre décharge locaux.docx.pdf'
+'Copie de Loox - Antennaone - Sheet1.csv'
+'Copie de Loox - Dentiwhite - Sheet1.csv'
+'Copie de Loox - MYLITTLEBRUSH - Sheet1.csv'
+'Copie de Loox - Nomade power - Sheet1.csv'
+'Copie de Loox - Review Import Template - Sheet1 (1).csv'
+'Copie de Loox - Review Import Template - Sheet1 (2).csv'
+'Copie de Loox - Review Import Template - Sheet1 (3).csv'
+'Copie de Loox - Review Import Template - Sheet1 (4).csv'
+'Copie de Loox - Review Import Template - Sheet1 (5).csv'
+'Copie de Loox - Review Import Template - Sheet1.csv'
+'Copie de Loox - cableuniversel - Sheet1.csv'
+'Copie de Loox - coincuisine - Sheet1 (1).csv'
+'Copie de Loox - coincuisine - Sheet1 (2).csv'
+'Copie de Loox - coincuisine - Sheet1 (3).csv'
+'Copie de Loox - coincuisine - Sheet1 (4).csv'
+'Copie de Loox - coincuisine - Sheet1 (5).csv'
+'Copie de Loox - coincuisine - Sheet1 (6).csv'
+'Copie de Loox - coincuisine - Sheet1 (7).csv'
+'Copie de Loox - coincuisine - Sheet1 (8).csv'
+'Copie de Loox - coincuisine - Sheet1 (9).csv'
+'Copie de Loox - coincuisine - Sheet1.csv'
+'Copie de Loox - ecoenergy - Sheet1.csv'
+'Copie de Loox - matte cosmetic - Sheet1.csv'
+'Copie de Loox - skinpatch - Sheet1 (1).csv'
+'Copie de Loox - skinpatch - Sheet1 (2).csv'
+'Copie de Loox - skinpatch - Sheet1 (3).csv'
+'Copie de Loox - skinpatch - Sheet1.csv'
+'Copie de Loox - smart zoom - Sheet1 (1).csv'
+'Copie de Loox - smart zoom - Sheet1.csv'
+'Copie de Loox - yesmile ita - Sheet1 (1).csv'
+'Copie de Loox - yesmile ita - Sheet1 (2).csv'
+'Copie de Loox - yesmile ita - Sheet1 (3).csv'
+'Copie de Loox - yesmile ita - Sheet1.csv'
+'Copie de Loox - yesmile ita - Sheet3.csv'
+'Copie de MARS 2021 - DEV 5 MOIS - Contrat de formation professionnelle.pdf'
+'Créateur de contenu (@bastien.video) • Photos et vidéos Instagram.html'
+'Créateur de contenu (@bastien.video) • Photos et vidéos Instagram_files'/
+ Default.xml
+ Detangle-brosse-cheveux-femmes-humide-peigne-brosse-cheveux-professionnel-brosse-cheveux-Massage-peigne-brosse-pour-cheveux__2_-removebg-preview_480x480.webp
+'Detection (1).exe'*
+'Detection (2).exe'*
+ Detection.exe*
+ DiscordSetup.exe*
+ Dispersion_Brushes_1.zip
+ Dispersion_Brushes_4.zip
+'Document sans titre (1).pdf'
+'Document sans titre.pdf'
+'Dossier AIF-20210120T155023Z-001.zip'
+'Dossier AIF.zip'
+ DrumKit/
+ DrumKit.zip
+ Dual-Monitor-Wallpaper-1-768x216.jpg
+ EJqO4wuSUt_mid.jpg
+ EJxH4arSUY_mid.jpg
+'ES_1-800-DIRTY - Fasion.mp3'
+'ES_Arcade Duck Ride - SFX Producer.mp3'
+'ES_Back on Deck (Instrumental Version) - Xavy Rusan.mp3'
+'ES_Back on Deck - Xavy Rusan (1).mp3'
+'ES_Back on Deck - Xavy Rusan.mp3'
+'ES_Bicycle Bell Rings - SFX Producer.mp3'
+'ES_Bird Sandpiper 2 - SFX Producer.mp3'
+'ES_Bringing Me Down - Ooyy.mp3'
+'ES_Church Bells - SFX Producer.mp3'
+'ES_Crescendo Whoosh 1 - SFX Producer.mp3'
+'ES_Epic Voyage - Dream Cave.mp3'
+'ES_Ice Rink - Ballpoint.mp3'
+'ES_Let Yourself Go - Ooyy.mp3'
+'ES_Magic Spell Pass By 19 - SFX Producer.mp3'
+'ES_My Winter Wonderland - Loving Caliber.mp3'
+'ES_Na Na Na - Ballpoint.mp3'
+'ES_Nightclub Queue In City Centre With English Voices - SFX Producer.mp3'
+'ES_Salamanca - Sarah, the Illstrumentalist.mp3'
+'ES_Seona - Ooyy.mp3'
+'ES_Silent Night (Guitar Version) - Julyan Brynn.mp3'
+'ES_Slow You Down (Instrumental Version) - Park Lane.mp3'
+'ES_Socialite - Jontha Links.mp3'
+'ES_Springbreak (Instrumental Version) - Ooyy.mp3'
+'ES_The End Of All Things - Niklas Johansson.mp3'
+'ES_Tomorrow It Is Christmas - Loving Caliber.mp3'
+'ES_Torch Pass By 11 - SFX Producer.mp3'
+'ES_Torch Swoosh 2 - SFX Producer.mp3'
+'ES_Traffic Ambience At Oxford Circus London - SFX Producer.mp3'
+'ES_Train Crossing Bell - SFX Producer.mp3'
+'ES_Tried in Fire - Ballpoint.mp3'
+'ES_Waterfall 1 - SFX Producer.mp3'
+'ES_Waterfall River 1 - SFX Producer.mp3'
+'ES_Whoosh Transition 1 - SFX Producer.mp3'
+ EkQNTHrLY_mid.jpg
+ Ekg0-n2DsY_mid.jpg
+ EkqEPur8F_mid.jpg
+ EpicInstaller-10.18.8.msi
+ EynVDOHIY_mid.jpg
+ EytxyNTBHIK_mid.jpg
+ EyxzVpSHLF_mid.jpg
+ F9430491966004.pdf
+'FACTURE-21-02-1-JR-PROJET (1).pdf'
+'FACTURE-21-02-1-JR-PROJET (2) (1).pdf'
+'FACTURE-21-02-1-JR-PROJET (2).pdf'
+ FACTURE-21-02-1-JR-PROJET.pdf
+'FLACH - DT SAUVAGE'
+'FLACH - DT SAUVAGE.rar'
+ FLYER-RECTO.psd
+ Face-20180101192741583-20180110180604623-e1544456103932.jpg
+ FileZilla.xml
+ FileZilla_3.51.0_win64-setup.exe*
+ FileZillahtacces.xml
+'Flach ft BUX - Nostalgie Now.wav'
+'Flach ft BUX - Vision.wav'
+ Flyer-VERSO.psd
+ FullSizeRender.mov
+'Git-2.30.1-64-bit (1).exe'*
+'Git-2.30.1-64-bit (2).exe'*
+ Git-2.30.1-64-bit.exe*
+'Glitch Transition Pack by CINECOM.NET.prfpset'
+ Glitch-presets-11274.zip
+'Gotham Medium Regular.zip'
+ Gravity_Brushes_by_ShiftyJ.zip
+'Green and Cream Simple Sales Marketing Presentation (1).pdf'
+'Green and Cream Simple Sales Marketing Presentation.pdf'
+ Hbc828979befa4efbad9262bb15b46aa0k.webp
+ IMG_3630.MOV
+'IMM5812_1-LAZ80JC (1).pdf'
+ IMM5812_1-LAZ80JC.pdf
+ IMM5825_1-LAYD4MB.pdf
+'IPC - GLITCH TITLE 01.mogrt'
+'Kit media image produit électronique.zip'
+'LOGO-THIB-V2 (3).pdf'
+ LUTscollection-20201227T183800Z-001.zip
+'Lettre de motivation Financement AIF développeur web junior agile (1).pdf'
+'Lettre de motivation Financement AIF développeur web junior agile.pdf'
+ Logo.jpg
+ Logocortes.png
+ M44Z_SETUP.zip
+'MAINIMAGE (1).psd'
+ MAINIMAGE.psd
+'MD270_Free_Cosmetic_Cream_Jar_Mockup (1).zip'
+ MD270_Free_Cosmetic_Cream_Jar_Mockup.zip
+ Max7PitchandTimeMachines_r43196_v1.0.alp
+ MinecraftInstaller.msi
+'Modern Professional Resume (1).pdf'
+'Modern Professional Resume (2).pdf'
+'Modern Professional Resume.pdf'
+'Montage de oufe - Copie.psd'
+'Montage de oufe essai - Copie.psd'
+'Montage de oufe essai bas dispersion (1).psd'
+'Montage de oufe essai bas dispersion (2).png'
+'Montage de oufe essai bas dispersion (2).psd'
+'Montage de oufe essai bas dispersion def.png'
+'Montage de oufe essai bas dispersion def.psd'
+'Montage de oufe essai bas dispersion defdef.png'
+'Montage de oufe essai bas dispersion.psd'
+'Mount Kilimanjaro Summit Wide Presentation.pdf'
+'Mémoire M2.pdf'
+ N1ZfE6BB8Y_mid.jpg
+ N1j4wOr8F_mid.jpg
+ N1oaKXynF_mid.jpg
+ NJb46HBUt_mid.jpg
+ NJexEaSBIY_mid.jpg
+ NJj5zo6oK_mid.jpg
+ NordVPNSetup.exe*
+'Notion Setup 2.0.11.exe'*
+ Numériser.JPG
+ Numériser.png
+'Numériser 4.jpeg'
+ Nye446BBIK_mid.jpg
+ OfficeSetup.exe*
+ P1077699.psd
+ Paint_Splash_Brushes_2_abr.zip
+ Photo_6554202_DJI_602_jpg_4354206_0_202119161218_photo_original.jpg
+ Poppins.zip
+ Premiere-pro-presets-free-16169.zip
+ Profil_FB.jpg
+'RIB copie 2.pdf'
+'Reglement interieur - Wild Code School.pdf'
+'Sans titre-1.png'
+'Sans titre-2.png'
+'Sans titre-2.psd'
+'Sans titre-222.png'
+'Sans titre-3 (1).psd'
+'Sans titre-3 - Copie.psd'
+'Sans titre-3.png'
+'Sans titre-3.psd'
+'Sans titre-333.png'
+'Sans titre-4.png'
+'Sans titre-5 (1).psd'
+'Sans titre-5 (2).psd'
+'Sans titre-5.psd'
+ Sans-titre-3.png
+ Scrape-A-Round-Ice-Snow-Scraper-Review-test-760x507_large.jpg
+ Screen-Shot-2017-06-05-at-10.41.56-AM.png
+ Screenshot-2020-06-06-at-16.webp
+ SlackSetup.exe*
+ SodaPDF-converted-po.pdf
+ SteamSetup.exe*
+ Strat.docx
+'Sublime Text Build 3211 x64 Setup.exe'*
+'TOP 100 IWF - SCRATCH Masculin au 31-03-2020.pdf'
+'TOP 100 IWF 2017-2018 - SE Hom.pdf'
+'TeamViewer_Setup (1).exe'*
+ TeamViewer_Setup.exe*
+ The-Outer-Worlds.jpg
+ Trophée_des_Trois_Sorciers.png
+'Ubuntu (1).zip'
+ Uj6uFUNURCnhBdei1UvgU9frBx5idH8YPh8Efubc.jpeg
+ UnsteadyPleasantAstarte-size_restricted.gif
+ V18pv4hsF_mid.jpg
+ V1BVpHrLY_mid.jpg
+'V1VVaBSLK_mid (1).jpg'
+ V1VVaBSLK_mid.jpg
+ V1b4_DghF_mid.jpg
+ V1xhiP-fFY_orig.jpg
+ VJA7DltoK_mid.jpg
+ Vikings.S06E11.FRENCH.1080p.AMZN.WEB-DL.H264-FRATERNiTY.mkv
+'Vikings.S06E12.FRENCH.1080p.AMZN.WEB-DL.H264-FRATERNiTY.mkv (1).crdownload'
+ Vikings.S06E12.FRENCH.1080p.AMZN.WEB-DL.H264-FRATERNiTY.mkv.crdownload
+ Vikings.S06E12.SUBFRENCH.1080p.AMZN.WEB-DL.DDP5.1.H264-FCK.mkv
+ Vikings.S06E13.FRENCH.1080p.AMZN.WEB-DL.H264-FRATERNiTY.mkv
+ Vikings.S06E14.SUBFRENCH.1080p.AMZN.WEB-DL.DDP5.1.H264-FCK.mkv
+ Vikings.S06E15.FRENCH.1080p.AMZN.WEB-DL.H264-FRATERNiTY.mkv
+ Vikings.S06E16.FRENCH.1080p.AMZN.WEB-DL.H264-FRATERNiTY.mkv
+ Vikings.S06E17.FRENCH.1080p.AMZN.WEB-DL.H264-FRATERNiTY.mkv
+ Vikings.S06E18.FRENCH.1080p.AMZN.WEB-DL.H264-FRATERNiTY.mkv
+ Vikings.S06E19.FRENCH.1080p.AMZN.WEB-DL.H264-FRATERNiTY.mkv
+ Vikings.S06E20.FiNAL.FRENCH.1080p.AMZN.WEB-DL.H264-FRATERNiTY.mkv
+ Vinted_2020_yearly_income_report.pdf
+ Vk-Y11yht_mid.jpg
+ Vk9xkN6BSIF_mid.jpg
+ VkNkrlFot_mid.jpg
+ Vkh2hVy2t_mid.jpg
+ Vkm6o4J2F_mid.jpg
+ VkoLXPghF_mid.jpg
+ VkouVwuBIY_mid.jpg
+ Voloco_plugin_setup.exe*
+ VyCVwdrIt_mid.jpg
+ VyeqVwOBIF_mid.jpg
+'WhatsApp Audio 2020-11-29 at 17.40.46.aac'
+'WhatsApp Image 2020-11-24 at 11.32.40.jpeg'
+'WhatsApp Image 2020-11-26 at 12.48.03 (1).jpeg'
+'WhatsApp Image 2020-11-26 at 12.48.03.jpeg'
+'WhatsApp Image 2021-01-27 at 12.24.06.jpeg'
+'WhatsApp Image 2021-01-27 at 12.24.07 (1).jpeg'
+'WhatsApp Image 2021-01-27 at 12.24.07 (2).jpeg'
+'WhatsApp Image 2021-01-27 at 12.24.07.jpeg'
+'WhatsApp Image 2021-01-27 at 12.24.36 (1).jpeg'
+'WhatsApp Image 2021-01-27 at 12.24.36.jpeg'
+'WhatsApp Video 2020-12-01 at 11.56.31 (1).mp4'
+'WhatsApp Video 2020-12-01 at 11.56.31.mp4'
+'WhatsApp Video 2020-12-01 at 13.08.48.mp4'
+'WhatsApp Video 2020-12-04 at 18.25.00.mp4'
+'WhatsApp Video 2020-12-10 at 12.06.07.mp4'
+'WhatsApp Video 2021-01-04 at 12.26.42.mp4'
+'WhatsApp Video 2021-01-15 at 17.22.13.mp4'
+'WhatsApp Video 2021-02-21 at 16.39.25.mp4'
+ WhatsAppImage2020-11-27at13.03.24_800x800.webp
+'XboxInstaller (1).exe'*
+'XboxInstaller (2).exe'*
+'XboxInstaller (3).exe'*
+'XboxInstaller (4).exe'*
+ XboxInstaller.exe*
+ YFfB6QZEo6J8Zux7FTN1vCTl4GrA6Ew3ng0Saxg2.jpeg
+ ableton_live_trial_10.1.25_64.zip
+'abonnement cryptomatic 2.png'
+'abonnement cryptomatic.png'
+ acide-hyaluronique-genou-5e690a63952d2.jpg
+"activite10_fiche exercice_l'etoile du plaisir.pdf"
+'activite13_fiche exercice_mes interets professionnels_typologie_Holland (1).pdf'
+'activite13_fiche exercice_mes interets professionnels_typologie_Holland.pdf'
+'activite1_fichepeda_explorer son parcours (1).pdf'
+'activite1_fichepeda_explorer son parcours (2).pdf'
+'activite1_fichepeda_explorer son parcours.pdf'
+'activite2_fiche exercice _frise de vie (1).pdf'
+'activite2_fiche exercice _frise de vie.pdf'
+'activite4_fichepeda_identifier ses valeurs et interets.pdf'
+'activite6_fiche exercice_mon systeme de valeurs (1).pdf'
+'activite6_fiche exercice_mon systeme de valeurs.pdf'
+'activite7_fiche exercice_valeurs au travail.pdf'
+'activite8_fiche exercice_mes interets perso_pro (1).pdf'
+'activite8_fiche exercice_mes interets perso_pro.pdf'
+ adam-nowakowski-MFms-wkv3Ow-unsplash.jpg
+ adam-nowakowski-VkRq5w3asCA-unsplash.jpg
+ alavida-before-after.jpg
+ alexandru-zdrobau-BGz8vO3pK8k-unsplash.jpg
+ alocohol-wipes-3d-rendering-mockup-design.zip
+ amboqia_boriango.zip
+ annie-spratt-QckxruozjRg-unsplash.jpg
+ antennaone.mpg
+ apart-1.mp4
+ app-phone-screen-mockup-isolated.zip
+ app-store-logo.gif
+'archi jr projet.png'
+'architecte bas rhin alsace.jpg'
+'architecte strasbourg alsace.jpg'
+'architecte strasbourg bas rhin.PNG'
+ argent.png
+ arrows.png
+ asian-tourist-woman-taking-photo-with-mobile-phone-queenstown-south-island-new-zealand.jpg
+ audacity-win-2.4.2.exe*
+ austin-distel-DfjJMVhwH_8-unsplash.jpg
+'austin-distel-EMPZ7yRZoGw-unsplash (1).jpg'
+ austin-distel-EMPZ7yRZoGw-unsplash.jpg
+ austin-distel-Imc-IoZDMXc-unsplash-scaled.jpg
+ austin-distel-rxpThOwuVgE-unsplash.jpg
+ austin-distel-wawEfYdpkag-unsplash.jpg
+'austin-neill-JNvRecQ24Bk-unsplash (1).jpg'
+ austin-neill-JNvRecQ24Bk-unsplash.jpg
+ banner-photography-workshop-template.zip
+ banner-template-healthy-salad-lunch.zip
+ banner-template-winter-sale.zip
+ banner-template-with-winter-sales.zip
+ banner-youtube-channel-with-gamer-concept.zip
+ banner-youtube-channel-with-sport-concept.zip
+ barbecue-grill-close-up-professionally-cooking-food-open-fire-cast-iron-grate.jpg
+'bas rhin architecture.jpg'
+ bash_profile
+ basketball-player-poster-template-with-photo.zip
+ bastien.png
+ bathroom-interior-design-with-blue-towels-empty-wooden-floor.jpg
+ beautiful-face-young-woman-with-cosmetic-foundation-skin-beauty-treatment-concept.jpg
+ beautiful-face-young-woman-with-cosmetic-foundation-skin.jpg
+ beautiful-frost-pattern-on-window.jpg
+ beautiful-girl-with-long-hair.jpg
+ beautiful-girl-with-perfect-hair.jpg
+ beautiful-model-with-curly-hairstyle-beautiful-make-up.jpg
+ beautiful-scenery-of-mountainous-landscape-covered-with-snow-under-cloudy-sky.jpg
+ beautiful-woman-portrait.jpg
+ beautiful-young-brunette-with-make-up-curly-hair.jpg
+ beauty-fashion-makeup-and-people-concept-lovely-happy-woman-with-red-lipstick-shows-white-perfect-teeth-has-healthy-skin-long-dark-hair-isolated-over-white-wall-expresses-happiness.jpg
+ beauty-treatment-business-logo.zip
+ beauty-woman-portrait-with-beautiful-face-tear-close-up.jpg
+ bellania_2.zip
+ belly-3186730_1920.jpg
+ bence-balla-schottner-B3ga20TVdCI-unsplash.jpg
+ benjamin-child-GWe0dlVD9e0-unsplash.jpg
+'binance portable.jpg'
+ binance-mobile-app-running-smartphone-binance-is-finance-exchange-market.jpg
+ binance.jfif
+ binance.jpg
+ birch-sap-before-and-after.jpg
+'bitcoin binance.jpg'
+'bitcoin cryptomatic.jpg'
+'bitcoin france.jpg'
+'bitcoin iphone.png'
+ bitcoin-blockchain-crypto-currency-digital-encryption-digital-money-exchange-technology-network-connections.jpg
+ bitcoin-golden-cryptocurrency-coin-electronics-finance-money-symbol.zip
+ black-friday-banner-with-realistic-black-presents.zip
+ black-friday-furniture-sale-social-media-post-web-banner-template.zip
+ black-friday-smartwatch-sale-facebook-timeline-cover-web-banner-template.zip
+ black-sachet-foil-bag-paper-mockup-realistic-glossy-blank-cosmetics.zip
+ blanc.png
+ blonde-mature.jpg
+ bmx-competition-flyer-template.zip
+ box-chocolate-design-mock-up.zip
+ box-mockup-left-angle-view.zip
+ box-mockup-template.zip
+'box-mockup-with-changeable-color (1).zip'
+ box-mockup-with-changeable-color.zip
+ bruce-mars-GzumspFznSE-unsplash.jpg
+ business-people-working-over-laptop-development.zip
+ business-promotion-corporate-web-banner-template.zip
+ businesswoman-using-portable-power-bank-charge-her-phone.jpg
+ byebye-bills.jpg
+ cablu-usb-magnetic-540-pentru-incarcare-si-transfer-date-3-in-1-universal-vreau-chestii.mp4
+ camera-logos-pack.zip
+ campaign-creators-gMsnXqILjp4-unsplash.jpg
+'cardboard-box-mockup (1).zip'
+ cardboard-box-mockup.zip
+ carre_noir_blackout_tuesday_art-1_medium.jpg
+'carrelage jr projet.png'
+ ceramic-shampoo-soap-bottle-towels-counter-bathroom-background.jpg
+'chambre enfant architecte.jpg'
+'checkout_icon copie.png'
+ checkout_icon.png
+ cherry-pink-cosmetics-brand-set-bottles-with-essence-face-cream-lotion-product-placement-cherry-blossom-covered-dew-place-brand-realistic-s.zip
+'chmabre adulte architecte.jpg'
+ christmas-background-with-bokeh-snowflakes/
+ christmas-background-with-bokeh-snowflakes.zip
+ cinzel.zip
+ clean-minimalist-box-mockup.zip
+ close-up-3d-red-sale-diagram-isolated.zip
+ close-up-box-mockup-design.zip
+ close-up-boxes-mockup-isolated.zip
+ close-up-package-box-mockup-isolated.zip
+ close-up-screen-phone-mockup-isolated.zip
+ close-up-young-african-american-woman-with-eye-skin-treatment.jpg
+ cnfig.php
+ coin-3d-visual-composition-isolated.zip
+ concealer-cosmetic-package.zip
+ conctact-us-business-page-promotion-instagram-post-template.zip
+'connecter votre compte.png'
+ contact.pst
+'contrat3 (1).bmp'
+ contrat3.bmp
+'corporate-digital-business-marketing-promotion-facebook-cover-template (1).zip'
+ corporate-digital-business-marketing-promotion-facebook-cover-template.zip
+ cosmetic-bottle-with-box-packaging-mockup-isolated.zip
+ cosmetic-packaging-mock-up.zip
+ cosmetics-elements-with-foundation.zip
+ cosmetics-elements-with-foundation.zip.crdownload
+ couple-having-fun-watching-soccer-game.jpg
+ cream-packaging-mock-up.zip
+ cropped-image-businessman-sitting-by-table-cafe-analyzing-indicators-laptop-computer-while-using-smartphone.jpg
+ crown-wing-fly-badge-king.zip
+'crypto argent.jpg'
+'crypto cryptomatic (1) (1).jpg'
+'crypto cryptomatic (1).jpg'
+'crypto cryptomatic.jpg'
+'crypto fichier.png'
+'crypto folder.png'
+'crypto monnaie france.jpg'
+'crypto safe.png'
+'crypto valider.png'
+'crypto-portfolio-concept-illustration (1).zip'
+ crypto-portfolio-concept-illustration.zip
+'cryptocurrency cyptomatic.jpg'
+ cryptocurrency-coins.zip
+ cryptocurrency-concept-golden-coin-with-bitcoin-sign-flat-illustration-with-blockchain-technology-based-crypto-currency.zip
+ cryptocurrency-marketplace-isometric-landing-page.zip
+'cryptomatic donnees (1).png'
+'cryptomatic donnees.png'
+'cryptomatic france faq.jpg'
+ cryptomatie.jpg
+'cryptomonnaie avec cryptocurrency.jpg'
+'cryptomonnaie trading automatise.jpg'
+ crystal-gems-logo-icon.zip
+ crystal-vector-set-with-lettering.zip
+ crystals-colorful-realistic-background.zip
+ crystals-seamless-hand-drawn-modern-pattern.zip
+ culinary-lettering-mock-up-with-veggies-spices.zip
+ curology-cI_LU-uAkcE-unsplash.jpg
+ curve-arrow-pointing-left.png
+ cylinder-box-mockup.zip
+ dark-silver-text-style-effect-editable.zip
+ delivery-service-design-white-background-banner.zip
+ dental-clinic-with-abstract-background.zip
+"dentier dans l'eau.psd"
+ dentier_ok.webp
+ dentist-social-media-post.zip
+ dentist-with-smile.jpg
+ denys-nevozhai-2vmT5_FeMck-unsplash.jpg
+ designer.zip
+'desk business .jpg'
+ desktop.ini
+ desktop.png
+ digital-business-marketing-social-media-banner.zip
+ digital-currency-abstract-concept-illustration.zip
+ digital-cyberspace-data-network-connections.jpg
+ diseno-maqueta-smartphone-pantalla-completa.zip
+'dite oui a la vie4.png'
+'dite oui a la vie4.psd'
+ dolce_vita.zip
+ dollar-currency-symbol.png
+ dollars.png
+ dsgdgrsgs.png
+ dsgdgrsgs.psd
+'déclaration de CA_T4_2020.pdf'
+ e-electric-logo-energy.zip
+ eafc049cad846ab1e41d96a71f9a604a.jpg
+ ecb330a65a70971240bfaec0ea0a0348.jpg
+ effet-vitre-png-1-png-image-vitre-png-256_256.png
+ eftakher-alam-H0r6LB_9rz4-unsplash.jpg
+ electronic-gadgets.zip
+ elementor-1002-2021-01-29.json
+ elementor-1071-2021-01-27.json
+ elementor-1092-2021-01-27.json
+ elementor-1347-2021-01-27.json
+ elementor-1351-2021-01-27.json
+ elephant-e-sport-mascot-logo.zip
+ elephant-mascot-logo-design-illustration.zip
+ email-template-customizer-for-woo.zip
+ empty-living-room-with-blue-sofa-plants-table-empty-white-wall-background-3d-rendering.jpg
+'essai fausse main.psd'
+ evil_empire.zip
+ ezgif.com-webp-to-png_480x480.png
+ fabrizio-conti-k6GpdsPJSZw-unsplash.jpg
+ face-1511873_1920.jpg
+ family-cheering-while-watching-tv-home.jpg
+ fashionable-hand-drawn-women-sale-banner.zip
+ feminine-logo-collections.zip
+'fichier crypto.png'
+'fichier cryptomatic.png'
+ financial-business-chart-with-diagrams-stock-numbers-showing-profits-losses.jpg
+ financial-business-chart-with-diagrams-stock-numbers.jpg
+ financial-technology-concept.zip
+ firewatch-background-dual-screen-3200x1024-468007.jpg
+ flag-france-background.zip
+ flag-of-france.jpg
+ flake-text-style-effect.zip
+'fleche trading france.png'
+ floating-letterhead-business-card-with-tube-mockup-looks-right-view.zip
+ fly-rap-freestyle-beat-boom-bap-beat-hip-hop-instrumental-nxnja.mp3
+'folder def.png'
+ folder.png
+'fond 50% baniere.psd'
+'fond 50%.psd'
+ fond_50_baniere.jpg
+ forget-90s-old-school-boom-bap-beat-hip-hop-instrumental.mp3
+ forget-90s-old-school-boom-bap-beat-hip-hop-instrumental.mp3.asd
+ foundation-makeup-elegant-packaging.zip
+ france-flag-ruffled-beautifully-waving-macro-close-up-shot.jpg
+ free-alpha-wann-freestyle-type-beat-technique-prod-zephyr.mp3
+ free-biggie-smalls-x-big-l-type-beat-chillin.mp3
+ free-biggie-smalls-x-big-l-type-beat-chillin.mp3.asd
+ free-cosmetic-tin-jar-mockup.zip
+ free-plk-x-lefa-type-beat-230-ft-larry-instru-rap-2021.mp3
+ free-pst-file-viewer.exe*
+ freestocks-MWWKA47KemU-unsplash.jpg
+ front-view-christmas-tree-gifts.jpg
+ front-view-of-christmas-tree-and-gifts.jpg
+ g_weltin.vcf
+'gagner de largent avec les cryptomonnaies 2 (1).jpg'
+'gagner de largent avec les cryptomonnaies 2.jpg'
+'gagner de largent avec les cryptomonnaies.jpg'
+'gagner de largent en ligne.jpg'
+'gagner de largent sur internet cryptomonnaie.jpg'
+'gagner de largent.png'
+'gain cryptomatic.png'
+ gem-stone-hipster-vintage-logo.zip
+ geometric-stone-gems-logo.zip
+ geometrical-shapes-set.zip
+ george-tasios-nmz5K3ZYrh8-unsplash.jpg
+ gilles.png
+ glRv1M96SpLkc9uC52M5.jpg
+ global-warming-affecting-plants-banner-template.zip
+ glossy-telegram-logo-isolated-3d-design.zip
+ golden-bitcoin-mail-hands.jpg
+ golden-black-friday-sale-banner-wavy-fabric-background.zip
+'google ios.png'
+ google-play-download-android-app-logo.png
+ graduation-cap.png
+ graphic-tablet-real-estate-plans.zip
+ grunge-brush-stroke-france-flag.zip
+ happy-parent-couple-with-two-kids-watching-tv-sitting-couch-living-room-using-remote-control.jpg
+'harry-cunningham-v-PqfyJ6bZQ-unsplash (1).jpg'
+ harry-cunningham-v-PqfyJ6bZQ-unsplash.jpg
+'header cryptomatic.jpg'
+ headway-5QgIuuBxKwM-unsplash.jpg
+ healthy-vegetables-kitchen.jpg
+ high-detailed-concept-digital-earth-globe-with-random-numbers-highlight-elements.jpg
+ hip-hop-beat-osaka-boom-bap-chill-free-hanto.mp3
+ holding-seedlings-hands-banner-template.zip
+ horizontal-banner-healthy-salad-lunch.zip
+ horizontal-banner-template-for-dental-care.zip
+ hygiene-beauty-concept-mock-up.zip
+ hylarunic-acide-before-after.jpg
+'icon secure.png'
+ icons8-team-y2T5hT7pWx4-unsplash.jpg
+'image (1).jfif'
+'image (1).png'
+'image (1)2.png'
+'image (1)22.png'
+'image (1)256.png'
+'image (1)555.png'
+'image (1)698.png'
+'image (10).jfif'
+'image (2).jfif'
+'image (3).jfif'
+'image (4).jfif'
+'image (5).jfif'
+'image (6).jfif'
+'image (7).jfif'
+'image (8).jfif'
+'image (9).jfif'
+ image-4.png
+ image.jfif
+ image.png
+ initial-coin-offering-business-financial.jpg
+ initials-c-logo-template-with-golden-style-color-company.zip
+ instrumental-hip-hop-evil-eye-ii-boom-bap-dark-hanto.mp3
+ interior-blank-photo-frame-living-room-with-white-sofa-3d-rendering.jpg
+ interior-blank-photo-frame-living-room-with-white-sofa-3d-rendering.png
+ isometric-box-arrangement-high-angle.zip
+ jason-briscoe-amLfrL8LGls-unsplash.jpg
+ jaune.png
+ jeune.png
+'jonathan-farber-HnYNItzKsCA-unsplash (1).jpg'
+ jonathan-farber-HnYNItzKsCA-unsplash.jpg
+'jr projet archi.png'
+'jr projet architecte.PNG'
+'jr projet noir et blanc 1.png'
+'jr projet noir et blanc 2.png'
+'jr projet noir et blanc 3.png'
+'jung projet.PNG'
+'jung romain strasbourg.jpg'
+ kadence-woocommerce-email-designer.zip
+ kamakazee-takin-all-bets-instrumental.mp3
+"l'agence DEF.docx"
+ land-1.jpg
+ laptop-mock-up-isolated.zip
+ large-family-is-watching-tv-brothers-sisters-mother-grandmother-baby-granddaughter.jpg
+ left-8.png
+ license-dark-silver-text-style-effect-editable-9536777.pdf
+ light-trails-buildings.jpg
+ lighter_PNG11188.png
+ lightning-thunderbolt-logo.zip
+ limmeuble-etait-mal-construit.mp4
+ liquid-foundation-smudge-white-background.jpg
+'liquid-matte-makeup-color-stay-foundation-beauty-cosmetic-luxury-glass-packaging (1).zip'
+ liquid-matte-makeup-color-stay-foundation-beauty-cosmetic-luxury-glass-packaging.zip
+ lock.png
+'logo sup.png'
+'logo yesmile.png'
+ logo-letter-w.zip
+ logo-mockup-elegant-embossed-wall.zip
+ logo2.png
+ long_shot.zip
+'mailing-box-mockup (1).zip'
+ mailing-box-mockup.zip
+'maison strasbourg architecte.jpg'
+ makeup-foundation-bb-cream-smudge-cream-powder-texture-background.jpg
+ makeup-special-offer-banner-template.zip
+ marble-counter-table-top-bath-room-background.jpg
+ marble-stone-countertop-on-blur-kitchen-interior-background.jpg
+'marcelo-matarazzo-ZOT2Mewzmh8-unsplash (1).jpg'
+ marcelo-matarazzo-ZOT2Mewzmh8-unsplash.jpg
+'matte cosmetic.mp4'
+ matthew-feeney-WeR4O6zoedA-unsplash.jpg
+ matthew-hamilton-fIywSGHYLYM-unsplash.jpg
+ maxresdefault.jpg
+ mayofi-MCIm2A6hLXs-unsplash.jpg
+ minimalis-pink-instagram-social-media-feed-post-feminine-banner-template.zip
+ mixkit-fragment-blur-opener-478.zip
+ mobile-phone-mockup-social-media.zip
+ mock-up-hand-holding-phone.jpg
+ mock-up-new-phone-showcase.zip
+ mockup-of-electronic-devices.zip
+ model-2303361_1920.jpg
+ model-2387582_1920.jpg
+ modern-kitchen-with-wooden-tabletop-space-you-display-products.jpg
+ money-bag.png
+ money.zip
+ mybeautybrush.png
+'neon-light-custom-text-effect (1).zip'
+ neon-light-custom-text-effect.zip
+ new-car-concept-banner-template.zip
+'new-story-90s-old-school-boom-bap-beat-hip-hop-instrumental (1).wav'
+ new-story-90s-old-school-boom-bap-beat-hip-hop-instrumental.mp3
+ new-story-90s-old-school-boom-bap-beat-hip-hop-instrumental.wav
+ noir.png
+ nouveau_logo_71e8c817-08d9-4b8f-af39-1e15e285077b.png
+'ok cryptomatic.png'
+ online-banking-with-man-holding-credit-card-making-payment-with-smartphone-app.zip
+ open-cap-matt-makeup-foundation-nude-beige-liquid-facial-coverage-skin.zip
+ orange.png
+ ovhconfig
+'ovhconfig (1)'
+'pWDAxdnd2n4qxoL3 (1).mp4'
+ pWDAxdnd2n4qxoL3.mp4
+ packaging-box-concept-mock-up.zip
+'packaging-box-mock-up (1).zip'
+ packaging-box-mock-up.zip
+ packaging-cosmetic-mascara-mock-up.zip
+ padlock.png
+ paiement_securise_grande_3765de50-b3f4-45b2-8f23-4fbc4e5ed76b_large_copie_0.png
+ paper-box-mockup.zip
+ paper-plane.png
+ parquet.png
+ patrick-tomasso-gMes5dNykus-unsplash.jpg
+ paypal-1.png
+ person-with-phone-mock-up-at-desk.zip
+ person-wrapping-christmas-present.jpg
+ pexels-arnie-chou-1229042.jpg
+ pexels-shiny-diamond-3762400.jpg
+ pexels-shiny-diamond-3762402.jpg
+ pexels-simon-matzinger-1183099.jpg
+ phone-screen-mockup.zip
+ phone-with-social-networking-service.jpg
+'photo produit.png'
+ photo-1553969420-fb915228af51.jfif
+ photo-1575286735152-86c3aa064aca.jfif
+ photo-1595428774862-a79ab68dbabb.jfif
+ photography-workshop-poster-template.zip
+ pink-brand-box-arrangement.zip
+ pink-packaging-of-cosmetic-products.zip
+'plan de coupe (2).jpg'
+'plan de coupe 3.jpg'
+'plan de coupe.jpg'
+'plan de masse.jpg'
+'plan romain  jung.jpg'
+ png-clipart-game-of-thrones-game-of-thrones-sansa-stark.png
+ portrait-smiling-casual-woman.jpg
+'poster-healthy-salad-lunch (1).zip.crdownload'
+ poster-healthy-salad-lunch.zip
+ power-editable-text-style-effect.zip
+ pretty-beautiful-woman-with-blonde-long-hair-having-excited-and-happy-facial-expression.jpg
+'product png.png'
+ product-image-1440933769_2000x.jpg
+ product-image-712277200_720x_large_a3f21e54-653c-445f-87ca-0610dac67b80_480x480.webp
+ protect.png
+'rachel blanc et noir 3.png'
+'rachel noir et blanc 2.png'
+'rachel noir et blanc.png'
+ radiesse-avap1.jpg
+ raider_crusader.zip
+ razvan-chisu-Ua-agENjmI4-unsplash.jpg
+ realistic-box-packaging-mockup.zip
+ realistic-coconut-background.zip
+ realistic-mascot-logo-wall-mockup.zip
+ realistic-sport-logo-mockup.zip
+ rectangle-blanc-1024x683.png
+ rectangle-noir-titre-black-lives-matter-1250x500.jpg
+ rectangle-noir.jpg
+ reey.zip
+ right-10.png
+ riverflows.zip
+ roboto.zip
+'romain jung Communauté urbaine de strasbourg.jpg'
+'romain jung architecte strasbourg.jpg'
+'romain jung architecte.jpg'
+'romain jung strasbourg.jpg'
+'romantic-brunette-european-appearance-stylish-clothes-close-up (1).jpg'
+ romantic-brunette-european-appearance-stylish-clothes-close-up.jpg
+ safety.png
+ sans_font_759d6fe2-0725-4f44-b77c-d8093e77c2e2.png
+ satisfaction.png
+'satisfait ou rembouse.png'
+ sauce-sachet-mockups.zip
+ scientific_space_planet_galaxy_stars_mac_ox_ultrahd_4k_wallpaper_3840x2160.jpg
+'scott-webb-WXIvO6j66P8-unsplash (1).jpg'
+'scott-webb-WXIvO6j66P8-unsplash (2).jpg'
+ scott-webb-WXIvO6j66P8-unsplash.jpg
+ scratched-frost-glass-texture-mockup.zip
+ screencapture-mikgoodies-products-phoera-flawless-matte-liquid-foundation-2020-12-23-15_00_01.png
+ screencapture-nomadepower-myshopify-2020-12-03-16_12_51.png
+ screencapture-preview-themeforest-net-item-wizors-investments-business-consulting-full-screen-preview-19638575-2021-01-26-13_49_05.png
+ sean-pollock-PhYq704ffdA-unsplash.jpg
+ secure.png
+ secure.psd
+'securise cryptomatic.png'
+ selda-90s-underground-boombap-hiphop-beat-instrumental.mp3
+ set-cooking-quotes-label-typography-lettering/
+ set-cooking-quotes-label-typography-lettering.zip
+ set-of-dental-clinic-logo.zip
+ shield.png
+ shoes-box-mockup-with-editable-design-psd.zip
+'signaux gratuits bitcoin.jpg'
+ slided.jpg
+'slider cryptomatic.png'
+ slider.jpg
+ slim-body.png
+ smart-tv-mockup-cabinet-modern-living-room-3d-rendering.zip
+'smartphone crypto.png'
+ smartphone-maqueta-aislada.zip
+ smartphone-mock-up-isolated.zip
+ smartphone-mockup.zip
+ smiling-young-woman-pointing-positive-quote.zip
+ snow-background-tree.jpg
+ social-media-post-or-banner-template-for-furniture-sale.zip
+ soda-can-with-ice-cubes-advertising-mockup.zip
+'sol bois.jpg'
+'sol carreaux.jpg'
+ spa-composition-with-body-care-items-light-wall.jpg
+ space-galaxy-background.jpg
+ special-offer-black-friday-web-banner-template.zip
+ special-watch-promotion-social-media-banner-template.zip
+ speedometer.png
+ sports-tech-web-page.zip
+'square-box-mockup (1).zip'
+ square-box-mockup.zip
+'square-box-packaging-mockup (1).zip'
+ square-box-packaging-mockup.zip
+'stone white.jpg'
+ stone.jpg
+'strasbourg architecte.jpg'
+ style-trending-banner-template.zip
+ super-sale-black-friday-facebook-cover-banner-template.zip
+ swis721hvbtheavy.zip
+ tabletop-with-bright-modern-kitchen-background.jpg
+'techchallenge-web-dev-starter-forked (1).zip'
+ techchallenge-web-dev-starter-forked.zip
+ teeth-whitening-before-after-smile-cobham-surrey.jpg
+'telegram groupe crytomonnaies.jpg'
+ test-holland.pdf
+ test.mp4.mp4
+ tevin-trinh-OBJLWOPEQiE-unsplash.jpg
+ tevin-trinh-uD2PJWMlMyk-unsplash.jpg
+'texte M.GOMEZ.docx'
+ thin-box-packaging-mockup.zip
+ thumb-1920-677245.jpg
+'tinified (1).zip'
+'tinified (10).zip'
+'tinified (2).zip'
+'tinified (3).zip'
+'tinified (4).zip'
+'tinified (5).zip'
+'tinified (6).zip'
+'tinified (7).zip'
+'tinified (8).zip'
+'tinified (9).zip'
+ tinified.zip
+'trading automatise cypto.jpg'
+'trading crypto.jpg'
+'trading cryptomonnaies.jpg'
+'trading france white rock.jpg'
+'trading france.png'
+ trait.png
+ tramways-de-strasbourg-alsace-2017-2020.mp3
+'travail cryptomonnaie.jpg'
+ two-boxes-mockups.zip
+ two-boxes-packaging-mockup.zip
+ two-happy-asian-women-best-friends-casual-wear-laughing-while-working-with-laptop-home-living-room.jpg
+ two-pillboxes-packages-dark.zip
+ tyga-type-beat-martini-hip-hop-club-banger-instrumental.mp3
+ tyga-type-beat-martini-hip-hop-club-banger-instrumental.mp3.asd
+ téléchargement.png
+ ubuntu.zip
+ unlock.png
+ unlock.psd
+'unnamed (1).jpg'
+'unnamed (1).png'
+'unnamed (2).jpg'
+ unnamed.jpg
+ unnamed.png
+ up-arrow.png
+ usb-cables-set.zip
+'valider votre compte.png'
+ vegan-style-font.zip
+'vertical-box-mockup (1).zip'
+ vertical-box-mockup.zip
+ vertical-box-packaging-mockup.zip
+ video-1614284423.mp4
+ video-1614286885.mp4
+ video-1614288676.mp4
+ video-1614429058.mp4
+ video-1614429133.mp4
+ vieux.png
+ vikings-gamers-3d-text-style-effect-template.zip
+ viktor-forgacs-D9U_zS2qluc-unsplash.jpg
+ viva-mexico-mock-up-surrounded-by-spices-herbs.zip
+'wall street france.jpg'
+ wall-logo-mockup.zip
+ wampserver3.2.3_x64.exe*
+ we-love-watching-comedies-tv.jpg
+'web-banner-template-with-beauty-concept (1).zip'
+'web-banner-template-with-beauty-concept (2).zip'
+ web-banner-template-with-beauty-concept.zip
+ webpro-50-sports-effect-luts-look-up-tables-ZF435AV-components-2020-08-29/
+ webpro-50-sports-effect-luts-look-up-tables-ZF435AV-components-2020-08-29.zip
+ wetransfer-0ca44d.zip
+ wetransfer-433a3e.zip
+ wetransfer-4f3b47.zip
+ wetransfer-5aa045.zip
+ wetransfer-5ab759.zip
+ wetransfer-5cf85a.zip
+ wetransfer-66a216.zip
+ wetransfer-696655.zip
+ wetransfer-71a13f.zip
+ wetransfer-803d07.zip
+ wetransfer-9a36c1.zip
+ wetransfer-9a4895.zip
+ wetransfer-9f8508.zip
+ wetransfer-b4080e.zip
+ wetransfer-badc36.zip
+ wetransfer-c62ff4.zip
+ wetransfer-cab9a8.zip
+ wetransfer-d9387f.zip
+ wetransfer-dcb1d3.zip
+ wetransfer-dd6bfc.zip
+'white stone fond investissement.jpg'
+'white stone team.jpg'
+ white-box-laptop-tv-set-top-box-other-equipment.jpg
+ white-box-mockup-white-background-with-shadow-packaging-container-concept.zip
+ white-box-packaging-mockup-design.zip
+ white-brick-wall-product-background.zip
+ white-plastic-bag-package-with-black-friday-campaign-mockup.zip
+ white-vehicle-with-snow.jpg
+ whitestone.jpg
+ wifi-signal.png
+ wild-nature-banner-template.zip
+ winrar-x64-600fr.exe*
+ winter-concept-banner-template.zip
+ winter-sale-banner-set.zip
+ winter-sale-banner-template.zip
+ winter-shopping-season-with-special-offers.zip
+ woman-hand-holding-modern-smartphone-mockup.zip
+ woman-holding-phone-mock-up-desk.zip
+ woocommerce-gateway-stripe.4.8.0.zip
+'woocommerce-subscriptions (1).zip'
+ woocommerce-subscriptions.zip
+'wooden-board-empty-table-front-blurred-background-perspective-brown-wood-blur-coffee-shop-can-be-used-display-montage-your-products-mock-up-display-product (1).jpg'
+ wooden-board-empty-table-front-blurred-background-perspective-brown-wood-blur-coffee-shop-can-be-used-display-montage-your-products-mock-up-display-product.jpg
+ wooden-table-on-the-snow.jpg
+ wooden-top-table-kitchen-room-interior-product-display-montage.jpg
+ word-winter-frozen-glass-car-windshield.jpg
+ wordpress-5.6-fr_FR/
+ wordpress-5.6-fr_FR.zip
+ wrinkle_remover_photo_editor_app01.jpg
+ wwww.png
+ wwww_c7751f04-2b58-49f3-a9c3-ef11557144bb.webp
+ x3_d571d824-9bcd-4707-b5cc-ae2046327b6e_large.jpg
+ xpaiement-securise.jpg.pagespeed.ic.HxQh1Awtvo.jpg
+ yavuz.png
+ young-asian-couple-watching-basketball-sport-game-tv-home.jpg
+ young-man-clean-car-after-snow-storm-with-scraper.jpg
+ zephyrean_brk.zip
+ zip_session_26d0c7afa98b06e2c00005d652f5f57d.zip
+ 吕小军社交媒体统一logo.png
+
+basti@WINDELL-GDNLN8H MINGW64 /usr/bin
+$ ls ~/images
+ls: cannot access '/c/Users/basti/images': No such file or directory
+
+basti@WINDELL-GDNLN8H MINGW64 /usr/bin
+$ ls ~/Documents
+ 6281868300.pdf                                  'JR PROJET'/                      certificate_bastienbonnamant.pdf
+ Ableton/                                        'Ma musique'@                     certificate_example.pdf
+ Adobe/                                          'Max 8'/                          desktop.ini
+ Audacity/                                       'Mes images'@                    'fiche de paye décembre.pdf'
+ AutoTune.xml                                    'Mes vidéos'@                     htacess.txt
+'CDD TEMPS COMPLET 35H (1).doc'                  'Modèles Office personnalisés'/   index.php
+'Capture d’écran 2020-10-07 123954.png'          'My Games'/                       po.psd
+ Default.xml                                     'My Music'@                       wcs/
+'Facture auto entreprise'/                       'My Pictures'@                    wp-config.php
+'Fichiers Outlook'/                              'My Videos'@                      wp-settings.php
+ FileZillahtacces.xml                             Strat.docx
+'Glitch Transition Pack by CINECOM.NET.prfpset'   Zoom/
+
+basti@WINDELL-GDNLN8H MINGW64 /usr/bin
+$ ^C
+
+basti@WINDELL-GDNLN8H MINGW64 /usr/bin
+$
