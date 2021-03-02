@@ -1,93 +1,15 @@
 
 basti@WINDELL-GDNLN8H MINGW64 ~
-$ cd
-
-basti@WINDELL-GDNLN8H MINGW64 ~
-$ mkdir
-mkdir: missing operand
-Try 'mkdir --help' for more information.
-
-basti@WINDELL-GDNLN8H MINGW64 ~
-$ help
-GNU bash, version 4.4.23(1)-release (x86_64-pc-msys)
-These shell commands are defined internally.  Type `help' to see this list.
-Type `help name' to find out more about the function `name'.
-Use `info bash' to find out more about the shell in general.
-Use `man -k' or `info' to find out more about commands not in this list.
-
-A star (*) next to a name means that the command is disabled.
-
- job_spec [&]                            history [-c] [-d offset] [n] or hist>
- (( expression ))                        if COMMANDS; then COMMANDS; [ elif C>
- . filename [arguments]                  jobs [-lnprs] [jobspec ...] or jobs >
- :                                       kill [-s sigspec | -n signum | -sigs>
- [ arg... ]                              let arg [arg ...]
- [[ expression ]]                        local [option] name[=value] ...
- alias [-p] [name[=value] ... ]          logout [n]
- bg [job_spec ...]                       mapfile [-d delim] [-n count] [-O or>
- bind [-lpsvPSVX] [-m keymap] [-f file>  popd [-n] [+N | -N]
- break [n]                               printf [-v var] format [arguments]
- builtin [shell-builtin [arg ...]]       pushd [-n] [+N | -N | dir]
- caller [expr]                           pwd [-LPW]
- case WORD in [PATTERN [| PATTERN]...)>  read [-ers] [-a array] [-d delim] [->
- cd [-L|[-P [-e]] [-@]] [dir]            readarray [-n count] [-O origin] [-s>
- command [-pVv] command [arg ...]        readonly [-aAf] [name[=value] ...] o>
- compgen [-abcdefgjksuv] [-o option] [>  return [n]
- complete [-abcdefgjksuv] [-pr] [-DE] >  select NAME [in WORDS ... ;] do COMM>
- compopt [-o|+o option] [-DE] [name ..>  set [-abefhkmnptuvxBCHP] [-o option->
- continue [n]                            shift [n]
- coproc [NAME] command [redirections]    shopt [-pqsu] [-o] [optname ...]
- declare [-aAfFgilnrtux] [-p] [name[=v>  source filename [arguments]
- dirs [-clpv] [+N] [-N]                  suspend [-f]
- disown [-h] [-ar] [jobspec ... | pid >  test [expr]
- echo [-neE] [arg ...]                   time [-p] pipeline
- enable [-a] [-dnps] [-f filename] [na>  times
- eval [arg ...]                          trap [-lp] [[arg] signal_spec ...]
- exec [-cl] [-a name] [command [argume>  true
- exit [n]                                type [-afptP] name [name ...]
- export [-fn] [name[=value] ...] or ex>  typeset [-aAfFgilnrtux] [-p] name[=v>
- false                                   ulimit [-SHabcdefiklmnpqrstuvxPT] [l>
- fc [-e ename] [-lnr] [first] [last] o>  umask [-p] [-S] [mode]
- fg [job_spec]                           unalias [-a] name [name ...]
- for NAME [in WORDS ... ] ; do COMMAND>  unset [-f] [-v] [-n] [name ...]
- for (( exp1; exp2; exp3 )); do COMMAN>  until COMMANDS; do COMMANDS; done
- function name { COMMANDS ; } or name >  variables - Names and meanings of so>
- getopts optstring name [arg]            wait [-n] [id ...]
- hash [-lr] [-p pathname] [-dt] [name >  while COMMANDS; do COMMANDS; done
- help [-dms] [pattern ...]               { COMMANDS ; }
-
-basti@WINDELL-GDNLN8H MINGW64 ~
-$ mkdir
-mkdir: missing operand
-Try 'mkdir --help' for more information.
-
-basti@WINDELL-GDNLN8H MINGW64 ~
-$ cd
-
-basti@WINDELL-GDNLN8H MINGW64 ~
-$ mkdir quests
-
-basti@WINDELL-GDNLN8H MINGW64 ~
-$ mkdir -p quests/shell/vegetables quests/shell/fruits
-
-basti@WINDELL-GDNLN8H MINGW64 ~
-$ mkdir quests/shell/remove-me quests/shell/delete-me
-
-basti@WINDELL-GDNLN8H MINGW64 ~
-$ ls quests/shell
-delete-me/  fruits/  remove-me/  vegetables/
-
-basti@WINDELL-GDNLN8H MINGW64 ~
-$ ~/quests/shell
-bash: /c/Users/basti/quests/shell: Is a directory
+$ pwd
+/c/Users/basti
 
 basti@WINDELL-GDNLN8H MINGW64 ~
 $ curl -L -o planets.zip https://github.com/WildCodeSchool/quests-resources/blob/master/terminal/planets.zip?raw=true
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-100   148  100   148    0     0    609      0 --:--:-- --:--:-- --:--:--   609
-100   159  100   159    0     0    377      0 --:--:-- --:--:-- --:--:--   377
-100  293k  100  293k    0     0   404k      0 --:--:-- --:--:-- --:--:-- 3711k
+100   148  100   148    0     0   1223      0 --:--:-- --:--:-- --:--:--  1233
+100   159  100   159    0     0   1074      0 --:--:-- --:--:-- --:--:--  1074
+100  293k  100  293k    0     0   556k      0 --:--:-- --:--:-- --:--:-- 1054k
 
 basti@WINDELL-GDNLN8H MINGW64 ~
 $ unzip planets.zip
@@ -107,4 +29,992 @@ Archive:  planets.zip
   inflating: planets/saturn.jpeg
 
 basti@WINDELL-GDNLN8H MINGW64 ~
+$ cd planets
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ mkdir real fictional inhabited
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ ls
+arrakis.jpeg  coruscant.jpeg  cybertron.jpeg  earth.jpeg  fictional/  inhabited/  jupiter.jpeg  mars.jpeg  mercury.jpeg  neptune.jpeg  pluto.jpeg  real/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ cd real
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ ls
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ mkdir terrestrial gas-giants dwarf-planets
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ ls
+dwarf-planets/  gas-giants/  terrestrial/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ cd ..
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ ls
+arrakis.jpeg  coruscant.jpeg  cybertron.jpeg  earth.jpeg  fictional/  inhabited/  jupiter.jpeg  mars.jpeg  mercury.jpeg  neptune.jpeg  pluto.jpeg  real/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ mv jupiter.jpeg mercury.jpeg gas-giants/
+mv: target 'gas-giants/' is not a directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ mv jupiter.jpeg mercury.jpeg gas-giants
+mv: target 'gas-giants' is not a directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ mv jupiter.jpeg mercury.jpeg real/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ real
+bash: real: command not found
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ cd real
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ ls
+dwarf-planets/  gas-giants/  jupiter.jpeg  mercury.jpeg  terrestrial/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ mv jupiter.jpeg mercury.jpeg gas-giants
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ ls
+dwarf-planets/  gas-giants/  terrestrial/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ cd gas-giants
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real/gas-giants
+$ ls
+jupiter.jpeg  mercury.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real/gas-giants
+$ cd ..
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ ls
+dwarf-planets/  gas-giants/  terrestrial/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ cd ..
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ ls
+arrakis.jpeg  coruscant.jpeg  cybertron.jpeg  earth.jpeg  fictional/  inhabited/  mars.jpeg  neptune.jpeg  pluto.jpeg  real/  saturn.jpeg  uranus.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ mv earth.jpeg mars.jpeg netptune.jpeg saturn.jpeg uranus.jpeg venus.jpeg real
+mv: cannot stat 'netptune.jpeg': No such file or directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ mv neptune.jpeg real
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ cd real
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ ls
+dwarf-planets/  earth.jpeg  gas-giants/  mars.jpeg  neptune.jpeg  saturn.jpeg  terrestrial/  uranus.jpeg  venus.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ mv earth.jpeg mars.jpeg neptune.jpeg saturn.jpeg uranus.jpeg venus.jpeg terrestrial
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ ls
+dwarf-planets/  gas-giants/  terrestrial/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ cd terrestrial
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real/terrestrial
+$ ls
+earth.jpeg  mars.jpeg  neptune.jpeg  saturn.jpeg  uranus.jpeg  venus.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real/terrestrial
+$ cd ..
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ ls
+dwarf-planets/  gas-giants/  terrestrial/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ cd ..
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ ls
+arrakis.jpeg  coruscant.jpeg  cybertron.jpeg  fictional/  inhabited/  pluto.jpeg  real/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ mv pluto.jpeg real
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ cd real
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ ls
+dwarf-planets/  gas-giants/  pluto.jpeg  terrestrial/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ mv pluto.jpeg dwarf-planets
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ ls
+dwarf-planets/  gas-giants/  terrestrial/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ cd dwarf-planets
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real/dwarf-planets
+$ ls
+pluto.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real/dwarf-planets
+$ cd ..
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ cd ..
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ ls
+arrakis.jpeg  coruscant.jpeg  cybertron.jpeg  fictional/  inhabited/  real/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ mv arrakis.jpeg coruscant.jpeg cybertron.jpeg fictional
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ ls
+fictional/  inhabited/  real/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ cd fictional
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  coruscant.jpeg  cybertron.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cd ..
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ ls
+fictional/  inhabited/  real/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ cd fictional
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  coruscant.jpeg  cybertron.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cp arrakis.jpeg coruscant.jpeg cybertron.jpeg inhabited
+cp: target 'inhabited' is not a directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cp arrakis.jpeg coruscant.jpeg cybertron.jpeg planets
+cp: target 'planets' is not a directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cp arrakis.jpeg coruscant.jpeg cybertron.jpeg planets/inhabited
+cp: target 'planets/inhabited' is not a directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cp arrakis.jpeg coruscant.jpeg cybertron.jpeg planets/inhabited/
+cp: target 'planets/inhabited/' is not a directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  coruscant.jpeg  cybertron.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cd ..
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ ls
+fictional/  inhabited/  real/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ cd fictional
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  coruscant.jpeg  cybertron.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls -l
+total 92
+-rw-r--r-- 1 basti 197609 23224 Feb 25  2019 arrakis.jpeg
+-rw-r--r-- 1 basti 197609 30475 Feb 25  2019 coruscant.jpeg
+-rw-r--r-- 1 basti 197609 36718 Feb 25  2019 cybertron.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cp arrakis.jpeg inhabited
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cp -R fictional inhabited/
+cp: failed to access 'inhabited/': Not a directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  coruscant.jpeg  cybertron.jpeg  inhabited
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ rm inhabited
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  coruscant.jpeg  cybertron.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cd ..
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ ls
+fictional/  inhabited/  real/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ cd real
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ ls
+dwarf-planets/  gas-giants/  terrestrial/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ cd dwarf-planets
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real/dwarf-planets
+$ ls
+pluto.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real/dwarf-planets
+$ rm pluto.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real/dwarf-planets
+$ ls
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real/dwarf-planets
+$ cd ..
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ ls
+dwarf-planets/  gas-giants/  terrestrial/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ rm dwarf-planets
+rm: cannot remove 'dwarf-planets': Is a directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ rm dwarf-planets/
+rm: cannot remove 'dwarf-planets/': Is a directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ rm -r dwarf-planets/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ ls
+gas-giants/  terrestrial/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ cd ..
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ ls
+fictional/  inhabited/  real/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ cd fictional
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  coruscant.jpeg  cybertron.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cp arrakis.jpeg inhabited
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  coruscant.jpeg  cybertron.jpeg  inhabited
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cd ..
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ ls
+fictional/  inhabited/  real/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ cd inhabited
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/inhabited
+$ ls
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/inhabited
+$ ls-l
+bash: ls-l: command not found
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/inhabited
+$ ls -l
+total 0
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/inhabited
+$ cd ..
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ ls
+fictional/  inhabited/  real/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ cd fictional
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  coruscant.jpeg  cybertron.jpeg  inhabited
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ rm inhabited
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  coruscant.jpeg  cybertron.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cp arrakis.jpeg
+cp: missing destination file operand after 'arrakis.jpeg'
+Try 'cp --help' for more information.
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cp arrakis.jpeg arrakis1.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  arrakis1.jpeg  coruscant.jpeg  cybertron.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ mv arrakis1.jpeg inhabited
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  coruscant.jpeg  cybertron.jpeg  inhabited
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ mv arrakis1.jpeg inhabited/
+mv: failed to access 'inhabited/': Not a directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ rm inhabited
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  coruscant.jpeg  cybertron.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cp arrakis.jpeg coruscant.jpeg cybertron.jpeg inhabited/
+cp: target 'inhabited/' is not a directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cp arrakis.jpeg coruscant.jpeg cybertron.jpeg inhabited
+cp: target 'inhabited' is not a directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cp arrakis.jpeg arrakis1.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  arrakis1.jpeg  coruscant.jpeg  cybertron.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cp coruscant.jpeg coruscant1.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  arrakis1.jpeg  coruscant.jpeg  coruscant1.jpeg  cybertron.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cp cybertron.jpeg cybertron1.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  arrakis1.jpeg  coruscant.jpeg  coruscant1.jpeg  cybertron.jpeg  cybertron1.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ mv arrakis1.jpeg coruscant1.jpeg cybertron1.jpeg real
+mv: target 'real' is not a directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ mv arrakis1.jpeg coruscant1.jpeg cybertron1.jpeg real/
+mv: target 'real/' is not a directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ mv arrakis1.jpeg coruscant1.jpeg cybertron1.jpeg planets/
+mv: target 'planets/' is not a directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ mv arrakis1.jpeg coruscant1.jpeg cybertron1.jpeg planets
+mv: target 'planets' is not a directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ mv arrakis1.jpeg coruscant1.jpeg cybertron1.jpeg inhabited
+mv: target 'inhabited' is not a directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ mv arrakis1.jpeg coruscant1.jpeg cybertron1.jpeg inhabited/
+mv: target 'inhabited/' is not a directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  arrakis1.jpeg  coruscant.jpeg  coruscant1.jpeg  cybertron.jpeg  cybertron1.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ mv arrakis1.jpeg real
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  coruscant.jpeg  coruscant1.jpeg  cybertron.jpeg  cybertron1.jpeg  real
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ rm real
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  coruscant.jpeg  coruscant1.jpeg  cybertron.jpeg  cybertron1.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cp arrakis.jpeg arrakis1.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ld
+bash: ld: command not found
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  arrakis1.jpeg  coruscant.jpeg  coruscant1.jpeg  cybertron.jpeg  cybertron1.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ mv arrakis1.jpeg planets/inhabited
+mv: cannot move 'arrakis1.jpeg' to 'planets/inhabited': No such file or directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ mv arrakis1.jpeg c/Users/basti/planets/inhabited
+mv: cannot move 'arrakis1.jpeg' to 'c/Users/basti/planets/inhabited': No such file or directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ mv arrakis1.jpeg c/Users/basti/documents/planets/inhabited
+mv: cannot move 'arrakis1.jpeg' to 'c/Users/basti/documents/planets/inhabited': No such file or directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cp -r fictional /inhabited/
+cp: cannot stat 'fictional': No such file or directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cp -r fictional /inhabited
+cp: cannot stat 'fictional': No such file or directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cp -r fictional inhabited/
+cp: cannot stat 'fictional': No such file or directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cp -r fictional inhabited
+cp: cannot stat 'fictional': No such file or directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cd ..
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ ls
+fictional/  inhabited/  real/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ mv arrakis1.jpeg inhabited/
+mv: cannot stat 'arrakis1.jpeg': No such file or directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ mv arrakis1.jpeg inhabited
+mv: cannot stat 'arrakis1.jpeg': No such file or directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ mv arrakis1.jpeg real
+mv: cannot stat 'arrakis1.jpeg': No such file or directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ ls
+fictional/  inhabited/  real/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ cd fictionnal
+bash: cd: fictionnal: No such file or directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ ls
+fictional/  inhabited/  real/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ cd fictional
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  arrakis1.jpeg  coruscant.jpeg  coruscant1.jpeg  cybertron.jpeg  cybertron1.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ mv arrakis1.jpeg inhabited
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  coruscant.jpeg  coruscant1.jpeg  cybertron.jpeg  cybertron1.jpeg  inhabited
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ mv inhabited inhabited
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  coruscant.jpeg  coruscant1.jpeg  cybertron.jpeg  cybertron1.jpeg  inhabited
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ rm inhabited
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  coruscant.jpeg  coruscant1.jpeg  cybertron.jpeg  cybertron1.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cp arrakis.jpeg
+cp: missing destination file operand after 'arrakis.jpeg'
+Try 'cp --help' for more information.
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cp arrakis.jpeg lol
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ rm lol
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cp arrakis.jpeg arrakis1.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ mv arrakis.jpeg inhabited
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis1.jpeg  coruscant.jpeg  coruscant1.jpeg  cybertron.jpeg  cybertron1.jpeg  inhabited
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ rm inhabited
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cp arrakis1.jpeg arrakis.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  arrakis1.jpeg  coruscant.jpeg  coruscant1.jpeg  cybertron.jpeg  cybertron1.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cd ..
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ ls
+fictional/  inhabited/  real/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ cd fictional
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  arrakis1.jpeg  coruscant.jpeg  coruscant1.jpeg  cybertron.jpeg  cybertron1.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ mv arrakis1.jpeg inhabited
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ld
+bash: ld: command not found
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  coruscant.jpeg  coruscant1.jpeg  cybertron.jpeg  cybertron1.jpeg  inhabited
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ rm inhabited
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  coruscant.jpeg  coruscant1.jpeg  cybertron.jpeg  cybertron1.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cp arrakis.jpeg arrakis1.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  arrakis1.jpeg  coruscant.jpeg  coruscant1.jpeg  cybertron.jpeg  cybertron1.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cp arrakis1.jpeg unhabited
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  arrakis1.jpeg  coruscant.jpeg  coruscant1.jpeg  cybertron.jpeg  cybertron1.jpeg  unhabited
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ rm unhabited
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  arrakis1.jpeg  coruscant.jpeg  coruscant1.jpeg  cybertron.jpeg  cybertron1.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ mv arrakis1.jpeg unhabited
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  coruscant.jpeg  coruscant1.jpeg  cybertron.jpeg  cybertron1.jpeg  unhabited
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ rm unhabited
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  coruscant.jpeg  coruscant1.jpeg  cybertron.jpeg  cybertron1.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cp arrakis.jpeg arrakis1.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  arrakis1.jpeg  coruscant.jpeg  coruscant1.jpeg  cybertron.jpeg  cybertron1.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cd ..
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ ls
+fictional/  inhabited/  real/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ cd fictional
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  arrakis1.jpeg  coruscant.jpeg  coruscant1.jpeg  cybertron.jpeg  cybertron1.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ mv arrakis1.jpeg inhabited
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  coruscant.jpeg  coruscant1.jpeg  cybertron.jpeg  cybertron1.jpeg  inhabited
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ rm inhabited
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  coruscant.jpeg  coruscant1.jpeg  cybertron.jpeg  cybertron1.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cp arrakis.jpeg arrakis1.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  arrakis1.jpeg  coruscant.jpeg  coruscant1.jpeg  cybertron.jpeg  cybertron1.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cd ..
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ ls
+fictional/  inhabited/  real/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ cd inhabited
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/inhabited
+$ cp arrakis.jpeg
+cp: missing destination file operand after 'arrakis.jpeg'
+Try 'cp --help' for more information.
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/inhabited
+$ cp arrakis.jpeg inhabited
+cp: cannot stat 'arrakis.jpeg': No such file or directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/inhabited
+$ cp arrakis1.jpeg /inhabited
+cp: cannot stat 'arrakis1.jpeg': No such file or directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/inhabited
+$ cd ..
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ cp arrakis1.jpeg /inhabited
+cp: cannot stat 'arrakis1.jpeg': No such file or directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ ls
+fictional/  inhabited/  real/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ cp arrakis1.jpeg /inhabited/
+cp: cannot stat 'arrakis1.jpeg': No such file or directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ cd fictional
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  arrakis1.jpeg  coruscant.jpeg  coruscant1.jpeg  cybertron.jpeg  cybertron1.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cd ..
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ ls
+fictional/  inhabited/  real/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ cd fictional
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cp arrakis1.jpeg ../inhabited/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  arrakis1.jpeg  coruscant.jpeg  coruscant1.jpeg  cybertron.jpeg  cybertron1.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cd ..
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ ls
+fictional/  inhabited/  real/
+
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
 $
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ cd inhabited
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/inhabited
+$ ls
+arrakis1.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/inhabited
+$ cd ..
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ ls
+fictional/  inhabited/  real/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ cd fictionnal
+bash: cd: fictionnal: No such file or directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ cd fictional
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  arrakis1.jpeg  coruscant.jpeg  coruscant1.jpeg  cybertron.jpeg  cybertron1.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ rm arrakis1.jpeg coruscant1.jpeg cybertron1.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  coruscant.jpeg  cybertron.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cp coruscant.jpeg cybertron.jpeg ../inhabited/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ ls
+arrakis.jpeg  coruscant.jpeg  cybertron.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/fictional
+$ cd ..
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ ls
+fictional/  inhabited/  real/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ cd inhabited
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/inhabited
+$ ls
+arrakis1.jpeg  coruscant.jpeg  cybertron.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/inhabited
+$ cd ..
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ ls
+fictional/  inhabited/  real/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ cd real
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ ls
+gas-giants/  terrestrial/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ cd terrestrial
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real/terrestrial
+$ ls
+earth.jpeg  mars.jpeg  neptune.jpeg  saturn.jpeg  uranus.jpeg  venus.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real/terrestrial
+$ cp earth.jpeg ../real/inhabited/
+cp: cannot create regular file '../real/inhabited/': No such file or directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real/terrestrial
+$ cp earth.jpeg ../real ../inhabited/
+cp: target '../inhabited/' is not a directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real/terrestrial
+$ cp earth.jpeg ../real ../inhabited
+cp: target '../inhabited' is not a directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real/terrestrial
+$ cp earth.jpeg ../real
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real/terrestrial
+$ cd ..
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ ls
+gas-giants/  real  terrestrial/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ rm real
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ ls
+gas-giants/  terrestrial/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ cd terrestrial
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real/terrestrial
+$ ls
+earth.jpeg  mars.jpeg  neptune.jpeg  saturn.jpeg  uranus.jpeg  venus.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real/terrestrial
+$ cp earth.jpeg ../real/
+cp: cannot create regular file '../real/': Not a directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real/terrestrial
+$ cp earth.jpeg ../inhabited/
+cp: cannot create regular file '../inhabited/': Not a directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real/terrestrial
+$ cp earth.jpeg ../inhabited
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real/terrestrial
+$ ls
+earth.jpeg  mars.jpeg  neptune.jpeg  saturn.jpeg  uranus.jpeg  venus.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real/terrestrial
+$ cd..
+bash: cd..: command not found
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real/terrestrial
+$ cd ..
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ ls
+gas-giants/  inhabited  terrestrial/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ rm inhabited
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ ls
+gas-giants/  terrestrial/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ cd terrestrial
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real/terrestrial
+$ ls
+earth.jpeg  mars.jpeg  neptune.jpeg  saturn.jpeg  uranus.jpeg  venus.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real/terrestrial
+$ cp earth.jpeg .. /real/
+cp: target '/real/' is not a directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real/terrestrial
+$ cp earth.jpeg ../real/
+cp: cannot create regular file '../real/': Not a directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real/terrestrial
+$ cp earth.jpeg ../real
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real/terrestrial
+$ cd ..
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ ls
+gas-giants/  real  terrestrial/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ rm real
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ ls
+gas-giants/  terrestrial/
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ cd terrestrial
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real/terrestrial
+$ ls
+earth.jpeg  mars.jpeg  neptune.jpeg  saturn.jpeg  uranus.jpeg  venus.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real/terrestrial
+$ cp earth.jpeg ../real/
+cp: cannot create regular file '../real/': Not a directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real/terrestrial
+$ cp earth.jpeg ../inhabited/
+cp: cannot create regular file '../inhabited/': Not a directory
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real/terrestrial
+$ cd ..
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets/real
+$ cd ..
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$ find
+.
+./fictional
+./fictional/arrakis.jpeg
+./fictional/coruscant.jpeg
+./fictional/cybertron.jpeg
+./inhabited
+./inhabited/arrakis1.jpeg
+./inhabited/coruscant.jpeg
+./inhabited/cybertron.jpeg
+./real
+./real/gas-giants
+./real/gas-giants/jupiter.jpeg
+./real/gas-giants/mercury.jpeg
+./real/terrestrial
+./real/terrestrial/earth.jpeg
+./real/terrestrial/mars.jpeg
+./real/terrestrial/neptune.jpeg
+./real/terrestrial/saturn.jpeg
+./real/terrestrial/uranus.jpeg
+./real/terrestrial/venus.jpeg
+
+basti@WINDELL-GDNLN8H MINGW64 ~/planets
+$
+
+
